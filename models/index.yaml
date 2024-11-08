@@ -683,6 +683,11 @@
     backend: unknown
     parameters:
       model: huggingface://MiaoshouAI/Florence-2-large-PromptGen-v2.0
+- name: infly/OpenCoder-8B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://infly/OpenCoder-8B-Instruct
 - name: google-bert/bert-base-uncased
   config_file:
     backend: fill-mask
@@ -753,11 +758,6 @@
     backend: image-text-to-text
     parameters:
       model: huggingface://OS-Copilot/OS-Atlas-Base-7B
-- name: infly/OpenCoder-8B-Instruct
-  config_file:
-    backend: text-generation
-    parameters:
-      model: huggingface://infly/OpenCoder-8B-Instruct
 - name: facebook/wav2vec2-base-960h
   config_file:
     backend: automatic-speech-recognition
@@ -1178,6 +1178,11 @@
     backend: unknown
     parameters:
       model: huggingface://guoyww/animatediff
+- name: h94/IP-Adapter
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://h94/IP-Adapter
 - name: BAAI/bge-large-en-v1.5
   config_file:
     backend: feature-extraction
@@ -1373,11 +1378,6 @@
     backend: text-generation
     parameters:
       model: huggingface://georgesung/llama2_7b_chat_uncensored
-- name: h94/IP-Adapter
-  config_file:
-    backend: text-to-image
-    parameters:
-      model: huggingface://h94/IP-Adapter
 - name: lllyasviel/sd_control_collection
   config_file:
     backend: unknown
@@ -1938,6 +1938,11 @@
     backend: unknown
     parameters:
       model: huggingface://Nitral-AI/Captain_BMO-12B
+- name: Hyratek/insightface-QAIC
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://Hyratek/insightface-QAIC
 - name: cpumaxx/SoVITS-anime-mini-tts
   config_file:
     backend: text-to-speech
@@ -2638,11 +2643,6 @@
     backend: text-to-image
     parameters:
       model: huggingface://Hyratek/turbo_vision_xl-QAIC
-- name: Hyratek/insightface-QAIC
-  config_file:
-    backend: image-to-image
-    parameters:
-      model: huggingface://Hyratek/insightface-QAIC
 - name: Hyratek/GFPGANv1.4-QAIC
   config_file:
     backend: image-to-image
