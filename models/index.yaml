@@ -1,0 +1,5000 @@
+- name: tencent/Tencent-Hunyuan-Large
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://tencent/Tencent-Hunyuan-Large
+- name: Etched/oasis-500m
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Etched/oasis-500m
+- name: microsoft/OmniParser
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://microsoft/OmniParser
+- name: HuggingFaceTB/SmolLM2-1.7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-1.7B-Instruct
+- name: black-forest-labs/FLUX.1-dev
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://black-forest-labs/FLUX.1-dev
+- name: fishaudio/fish-agent-v0.1-3b
+  config_file:
+    backend: audio-to-audio
+    parameters:
+      model: huggingface://fishaudio/fish-agent-v0.1-3b
+- name: OuteAI/OuteTTS-0.1-350M
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://OuteAI/OuteTTS-0.1-350M
+- name: stabilityai/stable-diffusion-3.5-large
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-3.5-large
+- name: nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
+- name: genmo/mochi-1-preview
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://genmo/mochi-1-preview
+- name: tencent/Hunyuan3D-1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://tencent/Hunyuan3D-1
+- name: meta-llama/Llama-3.2-1B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-1B
+- name: stabilityai/stable-diffusion-3.5-medium
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-3.5-medium
+- name: Shitao/OmniGen-v1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shitao/OmniGen-v1
+- name: meta-llama/Llama-3.2-3B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-3B-Instruct
+- name: meta-llama/Llama-3.1-8B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-8B-Instruct
+- name: Collov-Labs/Monetico
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Collov-Labs/Monetico
+- name: THUDM/CogVideoX1.5-5B-SAT
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://THUDM/CogVideoX1.5-5B-SAT
+- name: tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://tryonlabs/FLUX.1-dev-LoRA-Outfit-Generator
+- name: openai/whisper-large-v3-turbo
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://openai/whisper-large-v3-turbo
+- name: black-forest-labs/FLUX.1-schnell
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://black-forest-labs/FLUX.1-schnell
+- name: amphion/MaskGCT
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://amphion/MaskGCT
+- name: amd/AMD-OLMo
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://amd/AMD-OLMo
+- name: InstantX/InstantIR
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://InstantX/InstantIR
+- name: meta-llama/Llama-3.2-11B-Vision-Instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-11B-Vision-Instruct
+- name: tablegpt/TableGPT2-7B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://tablegpt/TableGPT2-7B
+- name: facebook/MobileLLM-1B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/MobileLLM-1B
+- name: gpt-omni/mini-omni2
+  config_file:
+    backend: any-to-any
+    parameters:
+      model: huggingface://gpt-omni/mini-omni2
+- name: Qwen/Qwen2.5-72B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-72B-Instruct
+- name: XLabs-AI/flux-ip-adapter-v2
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://XLabs-AI/flux-ip-adapter-v2
+- name: facebook/MobileLLM-125M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/MobileLLM-125M
+- name: HuggingFaceTB/SmolLM2-1.7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-1.7B
+- name: meta-llama/Llama-3.2-1B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-1B-Instruct
+- name: SWivid/F5-TTS
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://SWivid/F5-TTS
+- name: Qwen/Qwen2-VL-7B-Instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://Qwen/Qwen2-VL-7B-Instruct
+- name: Freepik/flux.1-lite-8B-alpha
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Freepik/flux.1-lite-8B-alpha
+- name: sentence-transformers/all-MiniLM-L6-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/all-MiniLM-L6-v2
+- name: jpgallegoar/F5-Spanish
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://jpgallegoar/F5-Spanish
+- name: stepfun-ai/GOT-OCR2_0
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://stepfun-ai/GOT-OCR2_0
+- name: openai/whisper-large-v3
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://openai/whisper-large-v3
+- name: mistralai/Mistral-Nemo-Instruct-2407
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-Nemo-Instruct-2407
+- name: mikeyandfriends/PixelWave_FLUX.1-dev_03
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://mikeyandfriends/PixelWave_FLUX.1-dev_03
+- name: meta-llama/Llama-3.1-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-8B
+- name: meta-llama/Meta-Llama-3-8B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Meta-Llama-3-8B-Instruct
+- name: Qwen/Qwen2.5-Coder-7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Coder-7B-Instruct
+- name: HuggingFaceTB/SmolLM2-135M-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-135M-Instruct
+- name: OuteAI/OuteTTS-0.1-350M-GGUF
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://OuteAI/OuteTTS-0.1-350M-GGUF
+- name: meta-llama/Llama-3.2-3B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-3B
+- name: city96/FLUX.1-dev-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://city96/FLUX.1-dev-gguf
+- name: microsoft/Phi-3.5-mini-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/Phi-3.5-mini-instruct
+- name: CohereForAI/aya-expanse-8b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://CohereForAI/aya-expanse-8b
+- name: coqui/XTTS-v2
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://coqui/XTTS-v2
+- name: mistralai/Mistral-7B-Instruct-v0.3
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-7B-Instruct-v0.3
+- name: nvidia/Llama-3.1-Nemotron-70B-Instruct
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Llama-3.1-Nemotron-70B-Instruct
+- name: nvidia/MM-Embed
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/MM-Embed
+- name: meta-llama/Llama-2-7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-2-7b
+- name: meta-llama/Llama-2-7b-chat-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-2-7b-chat-hf
+- name: Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro
+- name: ibm-granite/granite-3.0-8b-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ibm-granite/granite-3.0-8b-instruct
+- name: alimama-creative/SDXL-EcomID
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://alimama-creative/SDXL-EcomID
+- name: BAAI/bge-m3
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://BAAI/bge-m3
+- name: ds4sd/docling-models
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ds4sd/docling-models
+- name: meta-llama/Llama-3.1-70B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-70B-Instruct
+- name: XLabs-AI/flux-RealismLora
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://XLabs-AI/flux-RealismLora
+- name: stabilityai/stable-video-diffusion-img2vid-xt
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://stabilityai/stable-video-diffusion-img2vid-xt
+- name: google/gemma-2-2b-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-2b-it
+- name: comfyanonymous/flux_text_encoders
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://comfyanonymous/flux_text_encoders
+- name: mistralai/Pixtral-12B-2409
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Pixtral-12B-2409
+- name: rhymes-ai/Aria
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://rhymes-ai/Aria
+- name: stabilityai/stable-diffusion-3.5-large-turbo
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-3.5-large-turbo
+- name: HuggingFaceTB/SmolLM2-360M-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-360M-Instruct
+- name: HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF
+- name: briaai/RMBG-1.4
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://briaai/RMBG-1.4
+- name: vikhyatk/moondream2
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://vikhyatk/moondream2
+- name: meta-llama/Meta-Llama-3-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Meta-Llama-3-8B
+- name: fofr/sdxl-emoji
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://fofr/sdxl-emoji
+- name: deepseek-ai/DeepSeek-V2.5
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://deepseek-ai/DeepSeek-V2.5
+- name: arcee-ai/SuperNova-Medius
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://arcee-ai/SuperNova-Medius
+- name: Bllossom/llama-3.2-Korean-Bllossom-3B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Bllossom/llama-3.2-Korean-Bllossom-3B
+- name: lion-ai/MedImageInsights
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lion-ai/MedImageInsights
+- name: zer0int/CLIP-GmP-ViT-L-14
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://zer0int/CLIP-GmP-ViT-L-14
+- name: google/gemma-2-2b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-2b
+- name: nvidia/NV-Embed-v2
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://nvidia/NV-Embed-v2
+- name: jinaai/jina-embeddings-v3
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://jinaai/jina-embeddings-v3
+- name: meta-llama/Llama-3.2-11B-Vision
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-11B-Vision
+- name: jasperai/Flux.1-dev-Controlnet-Upscaler
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://jasperai/Flux.1-dev-Controlnet-Upscaler
+- name: bartowski/SuperNova-Medius-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/SuperNova-Medius-GGUF
+- name: rhymes-ai/Allegro
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://rhymes-ai/Allegro
+- name: amd/AMD-OLMo-1B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://amd/AMD-OLMo-1B
+- name: Qwen/Qwen2.5-7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-7B-Instruct
+- name: chuanli11/Llama-3.2-3B-Instruct-uncensored
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://chuanli11/Llama-3.2-3B-Instruct-uncensored
+- name: alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Beta
+- name: amd/AMD-OLMo-1B-SFT
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://amd/AMD-OLMo-1B-SFT
+- name: SamLowe/roberta-base-go_emotions
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://SamLowe/roberta-base-go_emotions
+- name: meta-llama/Llama-3.1-405B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-405B
+- name: MiaoshouAI/Florence-2-base-PromptGen-v2.0
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://MiaoshouAI/Florence-2-base-PromptGen-v2.0
+- name: openai/clip-vit-large-patch14
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://openai/clip-vit-large-patch14
+- name: stabilityai/stable-fast-3d
+  config_file:
+    backend: image-to-3d
+    parameters:
+      model: huggingface://stabilityai/stable-fast-3d
+- name: Qwen/Qwen2.5-1.5B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-1.5B-Instruct
+- name: Jovie/Midjourney
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Jovie/Midjourney
+- name: apple/DepthPro
+  config_file:
+    backend: depth-estimation
+    parameters:
+      model: huggingface://apple/DepthPro
+- name: Vision-CAIR/LongVU_Qwen2_7B
+  config_file:
+    backend: video-text-to-text
+    parameters:
+      model: huggingface://Vision-CAIR/LongVU_Qwen2_7B
+- name: HuggingFaceTB/SmolLM2-135M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-135M
+- name: facebook/detr-resnet-50
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://facebook/detr-resnet-50
+- name: suno/bark
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://suno/bark
+- name: Kijai/Mochi_preview_comfy
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Kijai/Mochi_preview_comfy
+- name: amd/AMD-OLMo-1B-SFT-DPO
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://amd/AMD-OLMo-1B-SFT-DPO
+- name: Comfy-Org/mochi_preview_repackaged
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Comfy-Org/mochi_preview_repackaged
+- name: si-community/hertz-dev
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://si-community/hertz-dev
+- name: nlpconnect/vit-gpt2-image-captioning
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://nlpconnect/vit-gpt2-image-captioning
+- name: sentence-transformers/all-mpnet-base-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/all-mpnet-base-v2
+- name: stabilityai/stable-diffusion-xl-base-1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-xl-base-1.0
+- name: MahmoudAshraf/mms-300m-1130-forced-aligner
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://MahmoudAshraf/mms-300m-1130-forced-aligner
+- name: google/gemma-2-9b-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-9b-it
+- name: Comfy-Org/flux1-dev
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Comfy-Org/flux1-dev
+- name: Qwen/Qwen2-VL-2B-Instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://Qwen/Qwen2-VL-2B-Instruct
+- name: rain1011/pyramid-flow-sd3
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://rain1011/pyramid-flow-sd3
+- name: alimama-creative/FLUX.1-Turbo-Alpha
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://alimama-creative/FLUX.1-Turbo-Alpha
+- name: paruparu95483/paruparu_illustrious
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://paruparu95483/paruparu_illustrious
+- name: 5CD-AI/Vintern-3B-beta
+  config_file:
+    backend: visual-question-answering
+    parameters:
+      model: huggingface://5CD-AI/Vintern-3B-beta
+- name: NimVideo/cogvideox-2b-img2vid
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://NimVideo/cogvideox-2b-img2vid
+- name: sbintuitions/sarashina2-8x70b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://sbintuitions/sarashina2-8x70b
+- name: openai-community/gpt2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://openai-community/gpt2
+- name: facebook/bart-large-cnn
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://facebook/bart-large-cnn
+- name: pyannote/speaker-diarization-3.1
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://pyannote/speaker-diarization-3.1
+- name: guozinan/PuLID
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://guozinan/PuLID
+- name: Kijai/flux-fp8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Kijai/flux-fp8
+- name: XLabs-AI/flux-controlnet-collections
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://XLabs-AI/flux-controlnet-collections
+- name: aleksa-codes/flux-ghibsky-illustration
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://aleksa-codes/flux-ghibsky-illustration
+- name: stable-diffusion-v1-5/stable-diffusion-v1-5
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stable-diffusion-v1-5/stable-diffusion-v1-5
+- name: fishaudio/fish-speech-1.4
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://fishaudio/fish-speech-1.4
+- name: OnomaAIResearch/Illustrious-xl-early-release-v0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://OnomaAIResearch/Illustrious-xl-early-release-v0
+- name: Laxhar/sdxl_noob
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Laxhar/sdxl_noob
+- name: mistralai/Ministral-8B-Instruct-2410
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Ministral-8B-Instruct-2410
+- name: deepseek-ai/Janus-1.3B
+  config_file:
+    backend: any-to-any
+    parameters:
+      model: huggingface://deepseek-ai/Janus-1.3B
+- name: Derendering/InkSight-Small-p
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Derendering/InkSight-Small-p
+- name: MiaoshouAI/Florence-2-large-PromptGen-v2.0
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://MiaoshouAI/Florence-2-large-PromptGen-v2.0
+- name: google-bert/bert-base-uncased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://google-bert/bert-base-uncased
+- name: openai/clip-vit-base-patch32
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://openai/clip-vit-base-patch32
+- name: CompVis/stable-diffusion-v1-4
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://CompVis/stable-diffusion-v1-4
+- name: ByteDance/Hyper-SD
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ByteDance/Hyper-SD
+- name: xinsir/controlnet-union-sdxl-1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://xinsir/controlnet-union-sdxl-1.0
+- name: THUDM/CogVideoX-5b
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://THUDM/CogVideoX-5b
+- name: vidore/colpali-v1.2
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://vidore/colpali-v1.2
+- name: ibm/biomed.omics.bl.sm.ma-ted-458m
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm/biomed.omics.bl.sm.ma-ted-458m
+- name: jadechoghari/Ferret-UI-Llama8b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://jadechoghari/Ferret-UI-Llama8b
+- name: DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B-GGUF
+- name: nvidia/Cosmos-Tokenizer-CI8x8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-CI8x8
+- name: prithivMLmods/Minimal-Futuristic-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Minimal-Futuristic-Flux-LoRA
+- name: migtissera/Tess-R1-Limerick-Llama-3.1-70B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://migtissera/Tess-R1-Limerick-Llama-3.1-70B
+- name: OS-Copilot/OS-Atlas-Base-7B
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://OS-Copilot/OS-Atlas-Base-7B
+- name: infly/OpenCoder-8B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://infly/OpenCoder-8B-Instruct
+- name: facebook/wav2vec2-base-960h
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://facebook/wav2vec2-base-960h
+- name: google/vit-base-patch16-224
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://google/vit-base-patch16-224
+- name: mattmdjaga/segformer_b2_clothes
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://mattmdjaga/segformer_b2_clothes
+- name: mistralai/Mixtral-8x7B-Instruct-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mixtral-8x7B-Instruct-v0.1
+- name: myshell-ai/MeloTTS-English
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://myshell-ai/MeloTTS-English
+- name: microsoft/Florence-2-large
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://microsoft/Florence-2-large
+- name: openbmb/MiniCPM-V-2_6
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://openbmb/MiniCPM-V-2_6
+- name: city96/t5-v1_1-xxl-encoder-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://city96/t5-v1_1-xxl-encoder-gguf
+- name: THUDM/CogVideoX-5b-I2V
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://THUDM/CogVideoX-5b-I2V
+- name: Qwen/Qwen2-VL-72B-Instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://Qwen/Qwen2-VL-72B-Instruct
+- name: allenai/Molmo-7B-D-0924
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://allenai/Molmo-7B-D-0924
+- name: jadechoghari/Ferret-UI-Gemma2b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://jadechoghari/Ferret-UI-Gemma2b
+- name: cfahlgren1/flux-qwen-capybara
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://cfahlgren1/flux-qwen-capybara
+- name: BAAI/Aquila-VL-2B-llava-qwen
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://BAAI/Aquila-VL-2B-llava-qwen
+- name: CohereForAI/aya-expanse-32b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://CohereForAI/aya-expanse-32b
+- name: IlyaGusev/saiga_nemo_12b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://IlyaGusev/saiga_nemo_12b
+- name: scepter-studio/ACE-0.6B-512px
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://scepter-studio/ACE-0.6B-512px
+- name: VongolaChouko/Starcannon-Unleashed-12B-v1.0
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://VongolaChouko/Starcannon-Unleashed-12B-v1.0
+- name: prithivMLmods/Ton618-Epic-Realism-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Ton618-Epic-Realism-Flux-LoRA
+- name: EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2
+- name: ibm-granite/granite-geospatial-land-surface-temperature
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm-granite/granite-geospatial-land-surface-temperature
+- name: dataautogpt3/ProteusSigma
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://dataautogpt3/ProteusSigma
+- name: google-t5/t5-base
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://google-t5/t5-base
+- name: pyannote/speaker-diarization
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://pyannote/speaker-diarization
+- name: bigscience/bloom
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bigscience/bloom
+- name: Salesforce/blip-image-captioning-large
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://Salesforce/blip-image-captioning-large
+- name: ggerganov/whisper.cpp
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://ggerganov/whisper.cpp
+- name: meta-llama/Llama-2-7b-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-2-7b-hf
+- name: nomic-ai/nomic-embed-text-v1.5
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://nomic-ai/nomic-embed-text-v1.5
+- name: stabilityai/stable-audio-open-1.0
+  config_file:
+    backend: text-to-audio
+    parameters:
+      model: huggingface://stabilityai/stable-audio-open-1.0
+- name: dunzhang/stella_en_1.5B_v5
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://dunzhang/stella_en_1.5B_v5
+- name: meta-llama/Llama-3.1-405B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-405B-Instruct
+- name: NousResearch/Hermes-3-Llama-3.1-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://NousResearch/Hermes-3-Llama-3.1-8B
+- name: MarinaraSpaghetti/SillyTavern-Settings
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://MarinaraSpaghetti/SillyTavern-Settings
+- name: gokaygokay/Flux-Prompt-Enhance
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://gokaygokay/Flux-Prompt-Enhance
+- name: Shakker-Labs/FLUX.1-dev-LoRA-Logo-Design
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-Logo-Design
+- name: homebrewltd/Ichigo-llama3.1-s-instruct-v0.3-phase-3
+  config_file:
+    backend: audio-to-audio
+    parameters:
+      model: huggingface://homebrewltd/Ichigo-llama3.1-s-instruct-v0.3-phase-3
+- name: numind/NuExtract-v1.5
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://numind/NuExtract-v1.5
+- name: UsefulSensors/moonshine
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://UsefulSensors/moonshine
+- name: fancyfeast/llama-joycaption-alpha-two-hf-llava
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://fancyfeast/llama-joycaption-alpha-two-hf-llava
+- name: prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0
+- name: gokaygokay/Flux-Game-Assets-LoRA-v2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://gokaygokay/Flux-Game-Assets-LoRA-v2
+- name: marcelbinz/Llama-3.1-Centaur-70B-adapter
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://marcelbinz/Llama-3.1-Centaur-70B-adapter
+- name: arcee-ai/Arcee-VyLinh
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://arcee-ai/Arcee-VyLinh
+- name: HuggingFaceTB/SmolLM2-360M-Instruct-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-360M-Instruct-GGUF
+- name: Vikhrmodels/Vikhr-2-VL-2b-Instruct-experimental
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://Vikhrmodels/Vikhr-2-VL-2b-Instruct-experimental
+- name: ManzhenWei/MG2
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ManzhenWei/MG2
+- name: ibm-granite/granite-geospatial-canopyheight
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm-granite/granite-geospatial-canopyheight
+- name: ProsusAI/finbert
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://ProsusAI/finbert
+- name: google/flan-t5-large
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://google/flan-t5-large
+- name: microsoft/speecht5_tts
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://microsoft/speecht5_tts
+- name: lllyasviel/ControlNet-v1-1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/ControlNet-v1-1
+- name: mistralai/Mistral-7B-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-7B-v0.1
+- name: Falconsai/nsfw_image_detection
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://Falconsai/nsfw_image_detection
+- name: facebook/seamless-m4t-v2-large
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://facebook/seamless-m4t-v2-large
+- name: mistralai/Mistral-7B-Instruct-v0.2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-7B-Instruct-v0.2
+- name: BAAI/bge-reranker-v2-m3
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://BAAI/bge-reranker-v2-m3
+- name: yisol/IDM-VTON
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://yisol/IDM-VTON
+- name: ibm-granite/granite-timeseries-ttm-r1
+  config_file:
+    backend: time-series-forecasting
+    parameters:
+      model: huggingface://ibm-granite/granite-timeseries-ttm-r1
+- name: stabilityai/stable-diffusion-3-medium
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-3-medium
+- name: deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+- name: BAAI/bge-multilingual-gemma2
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-multilingual-gemma2
+- name: OpenFace-CQUPT/Human_LLaVA
+  config_file:
+    backend: visual-question-answering
+    parameters:
+      model: huggingface://OpenFace-CQUPT/Human_LLaVA
+- name: Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur
+- name: Qwen/Qwen2.5-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-7B
+- name: nvidia/NVLM-D-72B
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://nvidia/NVLM-D-72B
+- name: TheDrummer/Cydonia-22B-v1.2
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Cydonia-22B-v1.2
+- name: rombodawg/Rombos-LLM-V2.6-Qwen-14b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://rombodawg/Rombos-LLM-V2.6-Qwen-14b
+- name: Comfy-Org/stable-diffusion-3.5-fp8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Comfy-Org/stable-diffusion-3.5-fp8
+- name: city96/stable-diffusion-3.5-large-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://city96/stable-diffusion-3.5-large-gguf
+- name: DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF
+- name: lightonai/MonoQwen2-VL-v0.1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lightonai/MonoQwen2-VL-v0.1
+- name: leafspark/Llama-3.2-11B-Vision-Instruct-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://leafspark/Llama-3.2-11B-Vision-Instruct-GGUF
+- name: rain1011/pyramid-flow-miniflux
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://rain1011/pyramid-flow-miniflux
+- name: HuggingFaceTB/SmolLM2-360M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM2-360M
+- name: mann-e/mann-e_flux
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://mann-e/mann-e_flux
+- name: allura-org/G2-9B-Aletheia-v1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://allura-org/G2-9B-Aletheia-v1
+- name: prithivMLmods/Glowing-Body-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Glowing-Body-Flux-LoRA
+- name: shibing624/text2vec-base-chinese
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://shibing624/text2vec-base-chinese
+- name: openai/whisper-small
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://openai/whisper-small
+- name: stabilityai/stable-diffusion-2-inpainting
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-2-inpainting
+- name: lj1995/VoiceConversionWebUI
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lj1995/VoiceConversionWebUI
+- name: lllyasviel/ControlNet
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/ControlNet
+- name: guoyww/animatediff
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://guoyww/animatediff
+- name: BAAI/bge-large-en-v1.5
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-large-en-v1.5
+- name: stabilityai/stable-video-diffusion-img2vid
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://stabilityai/stable-video-diffusion-img2vid
+- name: google/siglip-so400m-patch14-384
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://google/siglip-so400m-patch14-384
+- name: 2Noise/ChatTTS
+  config_file:
+    backend: text-to-audio
+    parameters:
+      model: huggingface://2Noise/ChatTTS
+- name: Alibaba-NLP/gte-Qwen2-7B-instruct
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://Alibaba-NLP/gte-Qwen2-7B-instruct
+- name: vidore/colpali
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://vidore/colpali
+- name: KwaiVGI/LivePortrait
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://KwaiVGI/LivePortrait
+- name: ostris/OpenFLUX.1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ostris/OpenFLUX.1
+- name: XLabs-AI/flux-lora-collection
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://XLabs-AI/flux-lora-collection
+- name: lllyasviel/flux1-dev-bnb-nf4
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/flux1-dev-bnb-nf4
+- name: jinaai/reader-lm-1.5b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://jinaai/reader-lm-1.5b
+- name: Qwen/Qwen2.5-14B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-14B-Instruct
+- name: kotoba-tech/kotoba-whisper-v2.0
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://kotoba-tech/kotoba-whisper-v2.0
+- name: Qwen/Qwen2.5-3B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-3B-Instruct
+- name: meta-llama/Llama-3.2-90B-Vision
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-90B-Vision
+- name: meta-llama/Llama-3.2-90B-Vision-Instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-90B-Vision-Instruct
+- name: vidore/colqwen2-v0.1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://vidore/colqwen2-v0.1
+- name: deepdml/faster-whisper-large-v3-turbo-ct2
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://deepdml/faster-whisper-large-v3-turbo-ct2
+- name: hbseong/HarmAug-Guard
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://hbseong/HarmAug-Guard
+- name: openbmb/VisRAG-Ret
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://openbmb/VisRAG-Ret
+- name: bingbangboom/flux-film-camera
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://bingbangboom/flux-film-camera
+- name: shallowdream204/DreamClear
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://shallowdream204/DreamClear
+- name: THUDM/glm-4-voice-9b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://THUDM/glm-4-voice-9b
+- name: facebook/MobileLLM-350M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/MobileLLM-350M
+- name: facebook/MobileLLM-600M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/MobileLLM-600M
+- name: bartowski/Qwen2.5.1-Coder-7B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Qwen2.5.1-Coder-7B-Instruct-GGUF
+- name: ali-vilab/In-Context-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ali-vilab/In-Context-LoRA
+- name: distilbert/distilbert-base-cased-distilled-squad
+  config_file:
+    backend: question-answering
+    parameters:
+      model: huggingface://distilbert/distilbert-base-cased-distilled-squad
+- name: FacebookAI/xlm-roberta-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://FacebookAI/xlm-roberta-base
+- name: facebook/bart-large-mnli
+  config_file:
+    backend: zero-shot-classification
+    parameters:
+      model: huggingface://facebook/bart-large-mnli
+- name: microsoft/trocr-base-handwritten
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://microsoft/trocr-base-handwritten
+- name: sentence-transformers/all-MiniLM-L12-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/all-MiniLM-L12-v2
+- name: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+- name: microsoft/resnet-50
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://microsoft/resnet-50
+- name: MIT/ast-finetuned-audioset-10-10-0.4593
+  config_file:
+    backend: audio-classification
+    parameters:
+      model: huggingface://MIT/ast-finetuned-audioset-10-10-0.4593
+- name: stabilityai/stable-diffusion-2-1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-2-1
+- name: timbrooks/instruct-pix2pix
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://timbrooks/instruct-pix2pix
+- name: intfloat/multilingual-e5-large
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://intfloat/multilingual-e5-large
+- name: georgesung/llama2_7b_chat_uncensored
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://georgesung/llama2_7b_chat_uncensored
+- name: h94/IP-Adapter
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://h94/IP-Adapter
+- name: lllyasviel/sd_control_collection
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/sd_control_collection
+- name: liuhaotian/llava-v1.5-7b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://liuhaotian/llava-v1.5-7b
+- name: XpucT/Deliberate
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://XpucT/Deliberate
+- name: Systran/faster-whisper-large-v3
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://Systran/faster-whisper-large-v3
+- name: stabilityai/stable-zero123
+  config_file:
+    backend: text-to-3d
+    parameters:
+      model: huggingface://stabilityai/stable-zero123
+- name: lj1995/GPT-SoVITS
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://lj1995/GPT-SoVITS
+- name: vikhyatk/moondream1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://vikhyatk/moondream1
+- name: stabilityai/stable-video-diffusion-img2vid-xt-1-1
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://stabilityai/stable-video-diffusion-img2vid-xt-1-1
+- name: utrobinmv/t5_summary_en_ru_zh_base_2048
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://utrobinmv/t5_summary_en_ru_zh_base_2048
+- name: TencentARC/InstantMesh
+  config_file:
+    backend: image-to-3d
+    parameters:
+      model: huggingface://TencentARC/InstantMesh
+- name: meta-llama/Meta-Llama-3-70B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Meta-Llama-3-70B
+- name: TheMistoAI/MistoLine
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://TheMistoAI/MistoLine
+- name: Tencent-Hunyuan/HunyuanDiT
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Tencent-Hunyuan/HunyuanDiT
+- name: mistralai/Codestral-22B-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Codestral-22B-v0.1
+- name: ibm-granite/granite-geospatial-biomass
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm-granite/granite-geospatial-biomass
+- name: dunzhang/stella_en_400M_v5
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://dunzhang/stella_en_400M_v5
+- name: bartowski/Mistral-Nemo-Instruct-2407-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Mistral-Nemo-Instruct-2407-GGUF
+- name: CohereForAI/c4ai-command-r-plus-08-2024
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://CohereForAI/c4ai-command-r-plus-08-2024
+- name: yainage90/fashion-object-detection
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://yainage90/fashion-object-detection
+- name: Team-ACE/ToolACE-8B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Team-ACE/ToolACE-8B
+- name: lmms-lab/LLaVA-Video-7B-Qwen2
+  config_file:
+    backend: video-text-to-text
+    parameters:
+      model: huggingface://lmms-lab/LLaVA-Video-7B-Qwen2
+- name: John6666/pornworks-sexy-beauty-v04-sdxl
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://John6666/pornworks-sexy-beauty-v04-sdxl
+- name: Qwen/Qwen2.5-32B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-32B-Instruct
+- name: bartowski/Qwen2.5-32B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Qwen2.5-32B-Instruct-GGUF
+- name: anthracite-org/magnum-v4-72b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://anthracite-org/magnum-v4-72b
+- name: TheDrummer/Cydonia-22B-v1.2-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Cydonia-22B-v1.2-GGUF
+- name: MeissonFlow/Meissonic
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://MeissonFlow/Meissonic
+- name: SWivid/E2-TTS
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://SWivid/E2-TTS
+- name: parler-tts/parler-tts-mini-multilingual
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://parler-tts/parler-tts-mini-multilingual
+- name: marco/mcdse-2b-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://marco/mcdse-2b-v1
+- name: bartowski/Llama-3.2-3B-Instruct-uncensored-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Llama-3.2-3B-Instruct-uncensored-GGUF
+- name: HPAI-BSC/Llama3.1-Aloe-Beta-70B
+  config_file:
+    backend: question-answering
+    parameters:
+      model: huggingface://HPAI-BSC/Llama3.1-Aloe-Beta-70B
+- name: HPAI-BSC/Llama3.1-Aloe-Beta-8B
+  config_file:
+    backend: question-answering
+    parameters:
+      model: huggingface://HPAI-BSC/Llama3.1-Aloe-Beta-8B
+- name: EVA-UNIT-01/EVA-Qwen2.5-32B-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://EVA-UNIT-01/EVA-Qwen2.5-32B-v0.1
+- name: Hyratek/SUPIR-QAIC
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Hyratek/SUPIR-QAIC
+- name: nvidia/Cosmos-Tokenizer-CV8x16x16
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-CV8x16x16
+- name: dasdsff/PleinAirArt
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://dasdsff/PleinAirArt
+- name: QuantFactory/saiga_nemo_12b-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://QuantFactory/saiga_nemo_12b-GGUF
+- name: prithivMLmods/Coloring-Book-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Coloring-Book-Flux-LoRA
+- name: prithivMLmods/Seamless-Pattern-Design-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Seamless-Pattern-Design-Flux-LoRA
+- name: prithivMLmods/Digital-Yellow-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Digital-Yellow-Flux-LoRA
+- name: prithivMLmods/Clouds-Illusion-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Clouds-Illusion-Flux-LoRA
+- name: prithivMLmods/Orange-Chroma-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Orange-Chroma-Flux-LoRA
+- name: prithivMLmods/Lime-Green-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Lime-Green-Flux-LoRA
+- name: prithivMLmods/SD3.5-Turbo-Realism-2.0-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/SD3.5-Turbo-Realism-2.0-LoRA
+- name: prithivMLmods/Shadow-Projection-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Shadow-Projection-Flux-LoRA
+- name: google-bert/bert-base-chinese
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://google-bert/bert-base-chinese
+- name: facebook/mbart-large-50-many-to-many-mmt
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://facebook/mbart-large-50-many-to-many-mmt
+- name: google/mt5-small
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://google/mt5-small
+- name: mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis
+- name: nlpaueb/legal-bert-base-uncased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://nlpaueb/legal-bert-base-uncased
+- name: sentence-transformers/LaBSE
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/LaBSE
+- name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+- name: impira/layoutlm-document-qa
+  config_file:
+    backend: document-question-answering
+    parameters:
+      model: huggingface://impira/layoutlm-document-qa
+- name: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+  config_file:
+    backend: zero-shot-classification
+    parameters:
+      model: huggingface://MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+- name: Gustavosta/MagicPrompt-Stable-Diffusion
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Gustavosta/MagicPrompt-Stable-Diffusion
+- name: uwg/upscaler
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://uwg/upscaler
+- name: facebook/musicgen-large
+  config_file:
+    backend: text-to-audio
+    parameters:
+      model: huggingface://facebook/musicgen-large
+- name: stabilityai/sdxl-vae
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://stabilityai/sdxl-vae
+- name: THUDM/chatglm2-6b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://THUDM/chatglm2-6b
+- name: stabilityai/sdxl-turbo
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/sdxl-turbo
+- name: stabilityai/stable-cascade
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-cascade
+- name: mixedbread-ai/mxbai-embed-large-v1
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://mixedbread-ai/mxbai-embed-large-v1
+- name: Virt-io/SillyTavern-Presets
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Virt-io/SillyTavern-Presets
+- name: meta-llama/Meta-Llama-3-70B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Meta-Llama-3-70B-Instruct
+- name: cognitivecomputations/dolphin-2.9-llama3-8b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://cognitivecomputations/dolphin-2.9-llama3-8b
+- name: microsoft/Phi-3-mini-4k-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/Phi-3-mini-4k-instruct
+- name: microsoft/Phi-3-mini-128k-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/Phi-3-mini-128k-instruct
+- name: myshell-ai/OpenVoiceV2
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://myshell-ai/OpenVoiceV2
+- name: MLP-KTLim/llama-3-Korean-Bllossom-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://MLP-KTLim/llama-3-Korean-Bllossom-8B
+- name: nomic-ai/nomic-embed-vision-v1.5
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://nomic-ai/nomic-embed-vision-v1.5
+- name: omoured/YOLOv10-Document-Layout-Analysis
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://omoured/YOLOv10-Document-Layout-Analysis
+- name: Sao10K/L3-8B-Stheno-v3.2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Sao10K/L3-8B-Stheno-v3.2
+- name: FunAudioLLM/SenseVoiceSmall
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://FunAudioLLM/SenseVoiceSmall
+- name: mistralai/Mistral-Nemo-Base-2407
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-Nemo-Base-2407
+- name: fal/AuraSR-v2
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://fal/AuraSR-v2
+- name: NousResearch/Hermes-3-Llama-3.1-8B-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://NousResearch/Hermes-3-Llama-3.1-8B-GGUF
+- name: InstantX/FLUX.1-dev-Controlnet-Union
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://InstantX/FLUX.1-dev-Controlnet-Union
+- name: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF
+- name: Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2
+- name: XLabs-AI/flux-ip-adapter
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://XLabs-AI/flux-ip-adapter
+- name: Shakker-Labs/FLUX.1-dev-LoRA-add-details
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-add-details
+- name: alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Alpha
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://alimama-creative/FLUX.1-dev-Controlnet-Inpainting-Alpha
+- name: prithivMLmods/Canopus-Clothing-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Clothing-Flux-LoRA
+- name: prithivMLmods/Canopus-LoRA-Flux-Anime
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-LoRA-Flux-Anime
+- name: prithivMLmods/Canopus-Cute-Kawaii-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Cute-Kawaii-Flux-LoRA
+- name: upstage/solar-pro-preview-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://upstage/solar-pro-preview-instruct
+- name: mistral-community/pixtral-12b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://mistral-community/pixtral-12b
+- name: Qwen/Qwen2.5-Math-RM-72B
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Math-RM-72B
+- name: mistralai/Mistral-Small-Instruct-2409
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Mistral-Small-Instruct-2409
+- name: Qwen/Qwen2.5-32B-Instruct-AWQ
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-32B-Instruct-AWQ
+- name: jasperai/Flux.1-dev-Controlnet-Depth
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://jasperai/Flux.1-dev-Controlnet-Depth
+- name: dfurman/CalmeRys-78B-Orpo-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://dfurman/CalmeRys-78B-Orpo-v0.1
+- name: glif-loradex-trainer/maxxd4240_minimalistPastel
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://glif-loradex-trainer/maxxd4240_minimalistPastel
+- name: google/gemma-2-2b-jpn-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-2b-jpn-it
+- name: huihui-ai/Llama-3.2-3B-Instruct-abliterated
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://huihui-ai/Llama-3.2-3B-Instruct-abliterated
+- name: sphiratrioth666/SillyTavern-Presets-Sphiratrioth
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://sphiratrioth666/SillyTavern-Presets-Sphiratrioth
+- name: mlx-community/whisper-large-v3-turbo
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mlx-community/whisper-large-v3-turbo
+- name: ibm-granite/granite-3.0-2b-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ibm-granite/granite-3.0-2b-instruct
+- name: shuttleai/shuttle-3
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://shuttleai/shuttle-3
+- name: DISLab/SummLlama3-8B
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://DISLab/SummLlama3-8B
+- name: fairchem/OMAT24
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://fairchem/OMAT24
+- name: h2oai/h2ovl-mississippi-2b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://h2oai/h2ovl-mississippi-2b
+- name: prithivMLmods/Kepler-452b-LoRA-Flux-Dev-3D-Bubbly
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Kepler-452b-LoRA-Flux-Dev-3D-Bubbly
+- name: prithivMLmods/Flux-Dev-Real-Anime-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Flux-Dev-Real-Anime-LoRA
+- name: Shakker-Labs/SD3.5-LoRA-Chinese-Line-Art
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/SD3.5-LoRA-Chinese-Line-Art
+- name: prithivMLmods/SD3.5-Large-Minimal-Blacked-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/SD3.5-Large-Minimal-Blacked-LoRA
+- name: prithivMLmods/SD3.5-Large-Turbo-HyperRealistic-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/SD3.5-Large-Turbo-HyperRealistic-LoRA
+- name: PleIAs/celadon
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://PleIAs/celadon
+- name: prithivMLmods/Ton618-Amxtoon-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Ton618-Amxtoon-Flux-LoRA
+- name: Hyratek/Llama-3.1-8B-Instruct-QAIC
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Hyratek/Llama-3.1-8B-Instruct-QAIC
+- name: Nitral-AI/Captain_BMO-12B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Nitral-AI/Captain_BMO-12B
+- name: cpumaxx/SoVITS-anime-mini-tts
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://cpumaxx/SoVITS-anime-mini-tts
+- name: gokaygokay/SmolLM2-Prompt-Enhance
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://gokaygokay/SmolLM2-Prompt-Enhance
+- name: phython96/ROCKET-1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://phython96/ROCKET-1
+- name: prithivMLmods/Ton618-Space-Wallpaper-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Ton618-Space-Wallpaper-LoRA
+- name: jae-xe/fae_anime_flux_lora
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://jae-xe/fae_anime_flux_lora
+- name: vidore/colqwen2-v1.0
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://vidore/colqwen2-v1.0
+- name: prithivMLmods/Electric-Blue-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Electric-Blue-Flux-LoRA
+- name: prithivMLmods/Intense-Red-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Intense-Red-Flux-LoRA
+- name: THUDM/webrl-glm-4-9b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://THUDM/webrl-glm-4-9b
+- name: prithivMLmods/Purple-Dreamy-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Purple-Dreamy-Flux-LoRA
+- name: dejanseo/PassageEmbeddings
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://dejanseo/PassageEmbeddings
+- name: prithivMLmods/Golden-Dust-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Golden-Dust-Flux-LoRA
+- name: prithivMLmods/Fractured-Line-Flare
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Fractured-Line-Flare
+- name: ArliAI/Qwen2.5-32B-ArliAI-RPMax-v1.3
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ArliAI/Qwen2.5-32B-ArliAI-RPMax-v1.3
+- name: distilbert/distilbert-base-uncased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://distilbert/distilbert-base-uncased
+- name: Helsinki-NLP/opus-mt-zh-en
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://Helsinki-NLP/opus-mt-zh-en
+- name: deepset/roberta-base-squad2
+  config_file:
+    backend: question-answering
+    parameters:
+      model: huggingface://deepset/roberta-base-squad2
+- name: emilyalsentzer/Bio_ClinicalBERT
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://emilyalsentzer/Bio_ClinicalBERT
+- name: sentence-transformers/distiluse-base-multilingual-cased-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/distiluse-base-multilingual-cased-v2
+- name: cardiffnlp/twitter-roberta-base-sentiment-latest
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://cardiffnlp/twitter-roberta-base-sentiment-latest
+- name: openai/clip-vit-large-patch14-336
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://openai/clip-vit-large-patch14-336
+- name: nvidia/speakerverification_en_titanet_large
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/speakerverification_en_titanet_large
+- name: microsoft/table-transformer-detection
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://microsoft/table-transformer-detection
+- name: openai/whisper-large-v2
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://openai/whisper-large-v2
+- name: facebook/fasttext-language-identification
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://facebook/fasttext-language-identification
+- name: lokCX/4x-Ultrasharp
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lokCX/4x-Ultrasharp
+- name: stabilityai/stable-diffusion-xl-refiner-1.0
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-xl-refiner-1.0
+- name: nerijs/pixel-art-xl
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://nerijs/pixel-art-xl
+- name: foduucom/stockmarket-future-prediction
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://foduucom/stockmarket-future-prediction
+- name: mistralai/Mistral-7B-Instruct-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mistral-7B-Instruct-v0.1
+- name: adept/fuyu-8b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://adept/fuyu-8b
+- name: HuggingFaceH4/zephyr-7b-beta
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceH4/zephyr-7b-beta
+- name: epfl-llm/meditron-70b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://epfl-llm/meditron-70b
+- name: latent-consistency/lcm-lora-sdxl
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://latent-consistency/lcm-lora-sdxl
+- name: google/madlad400-3b-mt
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://google/madlad400-3b-mt
+- name: upstage/SOLAR-10.7B-v1.0
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://upstage/SOLAR-10.7B-v1.0
+- name: Unbabel/TowerInstruct-13B-v0.1
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://Unbabel/TowerInstruct-13B-v0.1
+- name: nomic-ai/nomic-embed-text-v1
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://nomic-ai/nomic-embed-text-v1
+- name: metavoiceio/metavoice-1B-v0.1
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://metavoiceio/metavoice-1B-v0.1
+- name: google/gemma-2b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2b
+- name: blaze999/Medical-NER
+  config_file:
+    backend: token-classification
+    parameters:
+      model: huggingface://blaze999/Medical-NER
+- name: SG161222/RealVisXL_V4.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://SG161222/RealVisXL_V4.0
+- name: RunDiffusion/Juggernaut-XL-v9
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://RunDiffusion/Juggernaut-XL-v9
+- name: ByteDance/SDXL-Lightning
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ByteDance/SDXL-Lightning
+- name: argmaxinc/whisperkit-coreml
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://argmaxinc/whisperkit-coreml
+- name: ehristoforu/dalle-3-xl-v2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ehristoforu/dalle-3-xl-v2
+- name: cagliostrolab/animagine-xl-3.1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://cagliostrolab/animagine-xl-3.1
+- name: Chat2DB/Chat2DB-SQL-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Chat2DB/Chat2DB-SQL-7B
+- name: HuggingFaceM4/idefics2-8b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://HuggingFaceM4/idefics2-8b
+- name: mistralai/Mixtral-8x22B-Instruct-v0.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mistralai/Mixtral-8x22B-Instruct-v0.1
+- name: 01-ai/Yi-1.5-34B-Chat
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://01-ai/Yi-1.5-34B-Chat
+- name: owkin/phikon-v2
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://owkin/phikon-v2
+- name: knowledgator/gliner-multitask-large-v0.5
+  config_file:
+    backend: token-classification
+    parameters:
+      model: huggingface://knowledgator/gliner-multitask-large-v0.5
+- name: THUDM/glm-4v-9b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://THUDM/glm-4v-9b
+- name: Qwen/Qwen2-7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2-7B-Instruct
+- name: Kwai-Kolors/Kolors
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Kwai-Kolors/Kolors
+- name: depth-anything/Depth-Anything-V2-Large
+  config_file:
+    backend: depth-estimation
+    parameters:
+      model: huggingface://depth-anything/Depth-Anything-V2-Large
+- name: bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF
+- name: bartowski/gemma-2-9b-it-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/gemma-2-9b-it-GGUF
+- name: omni-research/Tarsier-34b
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://omni-research/Tarsier-34b
+- name: THUDM/codegeex4-all-9b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://THUDM/codegeex4-all-9b
+- name: HuggingFaceTB/SmolLM-135M
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM-135M
+- name: meta-llama/Llama-3.1-70B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.1-70B
+- name: mistralai/Mamba-Codestral-7B-v0.1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Mamba-Codestral-7B-v0.1
+- name: bartowski/gemma-2-9b-it-abliterated-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/gemma-2-9b-it-abliterated-GGUF
+- name: TencentARC/PhotoMaker-V2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://TencentARC/PhotoMaker-V2
+- name: mistralai/Mistral-Large-Instruct-2407
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Mistral-Large-Instruct-2407
+- name: mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated
+- name: mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF
+- name: FiditeNemini/Llama-3.1-Unhinged-Vision-8B-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://FiditeNemini/Llama-3.1-Unhinged-Vision-8B-GGUF
+- name: nothingiisreal/MN-12B-Celeste-V1.9
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://nothingiisreal/MN-12B-Celeste-V1.9
+- name: Qwen/Qwen2-Audio-7B-Instruct
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2-Audio-7B-Instruct
+- name: meetkai/functionary-medium-v3.1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://meetkai/functionary-medium-v3.1
+- name: openbmb/MiniCPM-V-2_6-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://openbmb/MiniCPM-V-2_6-gguf
+- name: Comfy-Org/flux1-schnell
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Comfy-Org/flux1-schnell
+- name: lllyasviel/flux1_dev
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/flux1_dev
+- name: cognitivecomputations/dolphin-2.9.4-llama3.1-8b-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://cognitivecomputations/dolphin-2.9.4-llama3.1-8b-gguf
+- name: alvdansen/flux-koda
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://alvdansen/flux-koda
+- name: microsoft/Phi-3.5-vision-instruct
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://microsoft/Phi-3.5-vision-instruct
+- name: ostris/FLUX.1-schnell-training-adapter
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ostris/FLUX.1-schnell-training-adapter
+- name: microsoft/Phi-3.5-MoE-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/Phi-3.5-MoE-instruct
+- name: elinas/Chronos-Gold-12B-1.0
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://elinas/Chronos-Gold-12B-1.0
+- name: ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1
+- name: nerijs/dark-fantasy-illustration-flux
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://nerijs/dark-fantasy-illustration-flux
+- name: pimpilikipilapi1/NSFW_master
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://pimpilikipilapi1/NSFW_master
+- name: gpt-omni/mini-omni
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://gpt-omni/mini-omni
+- name: openbmb/MiniCPM3-4B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://openbmb/MiniCPM3-4B
+- name: bartowski/DeepSeek-V2.5-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/DeepSeek-V2.5-GGUF
+- name: prithivMLmods/Canopus-Pixar-3D-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Pixar-3D-Flux-LoRA
+- name: Lewdiculous/MN-12B-Lyra-v4-GGUF-IQ-Imatrix
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Lewdiculous/MN-12B-Lyra-v4-GGUF-IQ-Imatrix
+- name: ICTNLP/Llama-3.1-8B-Omni
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ICTNLP/Llama-3.1-8B-Omni
+- name: kyutai/mimi
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://kyutai/mimi
+- name: Qwen/Qwen2.5-0.5B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-0.5B
+- name: Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4
+- name: Qwen/Qwen2.5-72B-Instruct-AWQ
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-72B-Instruct-AWQ
+- name: Qwen/Qwen2.5-Coder-1.5B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Coder-1.5B-Instruct
+- name: Qwen/Qwen2.5-Math-7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Math-7B-Instruct
+- name: Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24
+- name: ibm-granite/granite-geospatial-wxc-downscaling
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm-granite/granite-geospatial-wxc-downscaling
+- name: BAAI/Emu3-Gen
+  config_file:
+    backend: any-to-any
+    parameters:
+      model: huggingface://BAAI/Emu3-Gen
+- name: bartowski/Llama-3.2-3B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Llama-3.2-3B-Instruct-GGUF
+- name: unsloth/Llama-3.2-3B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://unsloth/Llama-3.2-3B-Instruct
+- name: unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit
+- name: Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct
+- name: mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF
+- name: nvidia/Llama-3.1-Nemotron-70B-Reward
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Llama-3.1-Nemotron-70B-Reward
+- name: WhiteRabbitNeo/WhiteRabbitNeo-2.5-Qwen-2.5-Coder-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://WhiteRabbitNeo/WhiteRabbitNeo-2.5-Qwen-2.5-Coder-7B
+- name: Mozilla/Llama-3.2-3B-Instruct-llamafile
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Mozilla/Llama-3.2-3B-Instruct-llamafile
+- name: chflame163/ComfyUI_LayerStyle
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://chflame163/ComfyUI_LayerStyle
+- name: TheDrummer/Behemoth-123B-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Behemoth-123B-v1
+- name: Shakker-Labs/FLUX.1-dev-LoRA-One-Click-Creative-Template
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-One-Click-Creative-Template
+- name: fudan-generative-ai/hallo2
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://fudan-generative-ai/hallo2
+- name: AIDC-AI/Ovis1.6-Gemma2-9B-GPTQ-Int4
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://AIDC-AI/Ovis1.6-Gemma2-9B-GPTQ-Int4
+- name: ibm-granite/granite-guardian-3.0-8b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ibm-granite/granite-guardian-3.0-8b
+- name: bartowski/Llama-3.1-Nemotron-70B-Instruct-HF-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Llama-3.1-Nemotron-70B-Instruct-HF-GGUF
+- name: gretelai/gretel-gliner-bi-large-v1.0
+  config_file:
+    backend: token-classification
+    parameters:
+      model: huggingface://gretelai/gretel-gliner-bi-large-v1.0
+- name: Lyte/Llama-3.2-3B-Overthinker
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Lyte/Llama-3.2-3B-Overthinker
+- name: QuantFactory/Llama-3-8B-Instruct-Finance-RAG-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://QuantFactory/Llama-3-8B-Instruct-Finance-RAG-GGUF
+- name: TheDrummer/Behemoth-123B-v1.1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Behemoth-123B-v1.1
+- name: MBZUAI/Llama-3-Nanda-10B-Chat
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://MBZUAI/Llama-3-Nanda-10B-Chat
+- name: novateur/WavTokenizer-large-speech-75token
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://novateur/WavTokenizer-large-speech-75token
+- name: calcuis/sd3.5-large-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://calcuis/sd3.5-large-gguf
+- name: renderartist/ROYGBIVFlux
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://renderartist/ROYGBIVFlux
+- name: prithivMLmods/SD3.5-Large-Handpainted-Sketchfab-3D-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/SD3.5-Large-Handpainted-Sketchfab-3D-LoRA
+- name: prithivMLmods/SD3.5-Large-Photorealistic-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/SD3.5-Large-Photorealistic-LoRA
+- name: VAGOsolutions/SauerkrautLM-v2-14b-SFT
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://VAGOsolutions/SauerkrautLM-v2-14b-SFT
+- name: prithivMLmods/Llama-3.2-8B-GGUF-200K
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://prithivMLmods/Llama-3.2-8B-GGUF-200K
+- name: dumb-dev/flan-t5-xxl-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://dumb-dev/flan-t5-xxl-gguf
+- name: qq8933/OpenLongCoT-Base-Gemma2-2B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://qq8933/OpenLongCoT-Base-Gemma2-2B
+- name: aifeifei798/flux-lora-uncensored
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://aifeifei798/flux-lora-uncensored
+- name: aisingapore/gemma2-9b-cpt-sea-lionv3-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://aisingapore/gemma2-9b-cpt-sea-lionv3-instruct
+- name: prithivMLmods/Ton618-Tarot-Cards-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Ton618-Tarot-Cards-Flux-LoRA
+- name: grapevine-AI/aya-expanse-8b-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://grapevine-AI/aya-expanse-8b-gguf
+- name: DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://DavidAU/MN-DARKEST-UNIVERSE-29B-GGUF
+- name: VAGOsolutions/SauerkrautLM-v2-14b-DPO
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://VAGOsolutions/SauerkrautLM-v2-14b-DPO
+- name: bartowski/EVA-Qwen2.5-32B-v0.1-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/EVA-Qwen2.5-32B-v0.1-GGUF
+- name: glif-loradex-trainer/shipley_flux_dev_AlicesAdventuresInWonderland_v2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://glif-loradex-trainer/shipley_flux_dev_AlicesAdventuresInWonderland_v2
+- name: mysticbeing/Llama-3.1-Nemotron-70B-Instruct-HF-FP8-DYNAMIC
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mysticbeing/Llama-3.1-Nemotron-70B-Instruct-HF-FP8-DYNAMIC
+- name: THU-KEG/Mistral-Crab-SFT
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://THU-KEG/Mistral-Crab-SFT
+- name: Hyratek/turbo_vision_xl-QAIC
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Hyratek/turbo_vision_xl-QAIC
+- name: Hyratek/insightface-QAIC
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://Hyratek/insightface-QAIC
+- name: Hyratek/GFPGANv1.4-QAIC
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://Hyratek/GFPGANv1.4-QAIC
+- name: bartowski/AMD-OLMo-1B-SFT-DPO-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/AMD-OLMo-1B-SFT-DPO-GGUF
+- name: prithivMLmods/Ton618-Only-Stickers-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Ton618-Only-Stickers-Flux-LoRA
+- name: prithivMLmods/Logo-Design-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Logo-Design-Flux-LoRA
+- name: shirman/SmolLM2-1.7B-Instruct-q4f16_1-MLC-WEBGPU
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://shirman/SmolLM2-1.7B-Instruct-q4f16_1-MLC-WEBGPU
+- name: OS-Copilot/OS-Atlas-Base-4B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://OS-Copilot/OS-Atlas-Base-4B
+- name: Alfitaria/Q25-1.5B-VeoLu
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Alfitaria/Q25-1.5B-VeoLu
+- name: si-pbc/hertz-dev
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://si-pbc/hertz-dev
+- name: nvidia/Cosmos-Tokenizer-DV4x8x8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-DV4x8x8
+- name: prithivMLmods/Red-Undersea-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Red-Undersea-Flux-LoRA
+- name: prithivMLmods/Yellow-Pop-Flux-Dev-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Yellow-Pop-Flux-Dev-LoRA
+- name: prithivMLmods/Purple-Grid-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Purple-Grid-Flux-LoRA
+- name: infly/OpenCoder-1.5B-Base
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://infly/OpenCoder-1.5B-Base
+- name: infly/OpenCoder-1.5B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://infly/OpenCoder-1.5B-Instruct
+- name: microsoft/LLM2CLIP-EVA02-L-14-336
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://microsoft/LLM2CLIP-EVA02-L-14-336
+- name: microsoft/LLM2CLIP-Openai-B-16
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://microsoft/LLM2CLIP-Openai-B-16
+- name: prithivMLmods/Simple-Doodle-SD3.5-Turbo
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Simple-Doodle-SD3.5-Turbo
+- name: prithivMLmods/Street-Bokeh-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Street-Bokeh-Flux-LoRA
+- name: prithivMLmods/Abstract-Cartoon-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Abstract-Cartoon-Flux-LoRA
+- name: prithivMLmods/Dark-Thing-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Dark-Thing-Flux-LoRA
+- name: enhanceaiteam/Flux-uncensored
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://enhanceaiteam/Flux-uncensored
+- name: enhanceaiteam/Flux-Uncensored-V2
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://enhanceaiteam/Flux-Uncensored-V2
+- name: FacebookAI/roberta-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://FacebookAI/roberta-base
+- name: FacebookAI/xlm-roberta-large
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://FacebookAI/xlm-roberta-large
+- name: EleutherAI/gpt-j-6b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://EleutherAI/gpt-j-6b
+- name: Helsinki-NLP/opus-mt-en-zh
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://Helsinki-NLP/opus-mt-en-zh
+- name: cardiffnlp/twitter-roberta-base-sentiment
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://cardiffnlp/twitter-roberta-base-sentiment
+- name: dandelin/vilt-b32-finetuned-vqa
+  config_file:
+    backend: visual-question-answering
+    parameters:
+      model: huggingface://dandelin/vilt-b32-finetuned-vqa
+- name: jhgan/ko-sroberta-multitask
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://jhgan/ko-sroberta-multitask
+- name: microsoft/deberta-v3-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://microsoft/deberta-v3-base
+- name: microsoft/deberta-v3-large
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://microsoft/deberta-v3-large
+- name: neuralmind/bert-base-portuguese-cased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://neuralmind/bert-base-portuguese-cased
+- name: pierreguillou/gpt2-small-portuguese
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://pierreguillou/gpt2-small-portuguese
+- name: ai-forever/Real-ESRGAN
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ai-forever/Real-ESRGAN
+- name: unitary/toxic-bert
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://unitary/toxic-bert
+- name: jonathandinu/face-parsing
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://jonathandinu/face-parsing
+- name: naver-clova-ix/donut-base-finetuned-docvqa
+  config_file:
+    backend: document-question-answering
+    parameters:
+      model: huggingface://naver-clova-ix/donut-base-finetuned-docvqa
+- name: laion/CLIP-ViT-B-32-laion2B-s34B-b79K
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://laion/CLIP-ViT-B-32-laion2B-s34B-b79K
+- name: laion/CLIP-ViT-H-14-laion2B-s32B-b79K
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://laion/CLIP-ViT-H-14-laion2B-s32B-b79K
+- name: stabilityai/sd-vae-ft-mse-original
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/sd-vae-ft-mse-original
+- name: stabilityai/sd-vae-ft-mse
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://stabilityai/sd-vae-ft-mse
+- name: google/flan-t5-small
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://google/flan-t5-small
+- name: stabilityai/stable-diffusion-2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-2
+- name: Salesforce/blip-image-captioning-base
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://Salesforce/blip-image-captioning-base
+- name: patrickjohncyh/fashion-clip
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://patrickjohncyh/fashion-clip
+- name: samle/sd-webui-models
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://samle/sd-webui-models
+- name: google/flan-ul2
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://google/flan-ul2
+- name: google/deplot
+  config_file:
+    backend: visual-question-answering
+    parameters:
+      model: huggingface://google/deplot
+- name: huggyllama/llama-7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://huggyllama/llama-7b
+- name: DeepFloyd/IF-I-XL-v1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://DeepFloyd/IF-I-XL-v1.0
+- name: tiiuae/falcon-7b-instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://tiiuae/falcon-7b-instruct
+- name: monster-labs/control_v1p_sd15_qrcode_monster
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://monster-labs/control_v1p_sd15_qrcode_monster
+- name: meta-llama/Llama-2-70b-chat-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-2-70b-chat-hf
+- name: ibm-nasa-geospatial/Prithvi-100M
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ibm-nasa-geospatial/Prithvi-100M
+- name: facebook/dinov2-large
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://facebook/dinov2-large
+- name: thenlper/gte-large
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://thenlper/gte-large
+- name: thibaud/controlnet-openpose-sdxl-1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://thibaud/controlnet-openpose-sdxl-1.0
+- name: kohya-ss/controlnet-lllite
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://kohya-ss/controlnet-lllite
+- name: diffusers/stable-diffusion-xl-1.0-inpainting-0.1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://diffusers/stable-diffusion-xl-1.0-inpainting-0.1
+- name: TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GGUF
+- name: microsoft/phi-1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/phi-1
+- name: BAAI/bge-base-en-v1.5
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-base-en-v1.5
+- name: BAAI/bge-small-en-v1.5
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-small-en-v1.5
+- name: BAAI/bge-reranker-large
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-reranker-large
+- name: IDEA-Research/grounding-dino-tiny
+  config_file:
+    backend: zero-shot-object-detection
+    parameters:
+      model: huggingface://IDEA-Research/grounding-dino-tiny
+- name: hotshotco/Hotshot-XL
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://hotshotco/Hotshot-XL
+- name: prometheus-eval/prometheus-13b-v1.0
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://prometheus-eval/prometheus-13b-v1.0
+- name: teknium/OpenHermes-2.5-Mistral-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://teknium/OpenHermes-2.5-Mistral-7B
+- name: 01-ai/Yi-34B-200K
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://01-ai/Yi-34B-200K
+- name: microsoft/table-transformer-structure-recognition-v1.1-all
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://microsoft/table-transformer-structure-recognition-v1.1-all
+- name: llava-hf/llava-1.5-7b-hf
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://llava-hf/llava-1.5-7b-hf
+- name: h94/IP-Adapter-FaceID
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://h94/IP-Adapter-FaceID
+- name: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TinyLlama/TinyLlama-1.1B-Chat-v1.0
+- name: google/siglip-base-patch16-256-multilingual
+  config_file:
+    backend: zero-shot-image-classification
+    parameters:
+      model: huggingface://google/siglip-base-patch16-256-multilingual
+- name: ElenaRyumina/face_emotion_recognition
+  config_file:
+    backend: video-classification
+    parameters:
+      model: huggingface://ElenaRyumina/face_emotion_recognition
+- name: MonsterMMORPG/tools
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://MonsterMMORPG/tools
+- name: RUCKBReasoning/TableLLM-7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://RUCKBReasoning/TableLLM-7b
+- name: CohereForAI/aya-101
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://CohereForAI/aya-101
+- name: BioMistral/BioMistral-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://BioMistral/BioMistral-7B
+- name: yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+- name: stabilityai/TripoSR
+  config_file:
+    backend: image-to-3d
+    parameters:
+      model: huggingface://stabilityai/TripoSR
+- name: meta-llama/CodeLlama-7b-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/CodeLlama-7b-hf
+- name: BAAI/bge-reranker-v2-minicpm-layerwise
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://BAAI/bge-reranker-v2-minicpm-layerwise
+- name: hpcai-tech/Open-Sora
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://hpcai-tech/Open-Sora
+- name: google/codegemma-7b-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/codegemma-7b-it
+- name: 1bitLLM/bitnet_b1_58-large
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://1bitLLM/bitnet_b1_58-large
+- name: MoritzLaurer/deberta-v3-large-zeroshot-v2.0
+  config_file:
+    backend: zero-shot-classification
+    parameters:
+      model: huggingface://MoritzLaurer/deberta-v3-large-zeroshot-v2.0
+- name: CohereForAI/c4ai-command-r-plus
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://CohereForAI/c4ai-command-r-plus
+- name: Snowflake/snowflake-arctic-embed-m
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://Snowflake/snowflake-arctic-embed-m
+- name: Qwen/CodeQwen1.5-7B-Chat-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/CodeQwen1.5-7B-Chat-GGUF
+- name: sWizad/pokemon-trainer-sprite-pixelart
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://sWizad/pokemon-trainer-sprite-pixelart
+- name: apple/OpenELM
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://apple/OpenELM
+- name: shenzhi-wang/Llama3-8B-Chinese-Chat
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://shenzhi-wang/Llama3-8B-Chinese-Chat
+- name: Orenguteng/Llama-3-8B-Lexi-Uncensored
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Orenguteng/Llama-3-8B-Lexi-Uncensored
+- name: google/timesfm-1.0-200m
+  config_file:
+    backend: time-series-forecasting
+    parameters:
+      model: huggingface://google/timesfm-1.0-200m
+- name: HuggingFaceFW/fineweb-edu-classifier
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://HuggingFaceFW/fineweb-edu-classifier
+- name: alimama-creative/EcomXL_controlnet_inpaint
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://alimama-creative/EcomXL_controlnet_inpaint
+- name: lllyasviel/ic-light
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/ic-light
+- name: google/paligemma-3b-pt-224
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://google/paligemma-3b-pt-224
+- name: microsoft/rad-dino
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://microsoft/rad-dino
+- name: nvidia/NV-Embed-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/NV-Embed-v1
+- name: merve/paligemma_vqav2
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://merve/paligemma_vqav2
+- name: RLHFlow/ArmoRM-Llama3-8B-v0.1
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://RLHFlow/ArmoRM-Llama3-8B-v0.1
+- name: mlabonne/NeuralDaredevil-8B-abliterated
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mlabonne/NeuralDaredevil-8B-abliterated
+- name: pyannote/speech-separation-ami-1.0
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://pyannote/speech-separation-ami-1.0
+- name: Qwen/Qwen2-0.5B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2-0.5B
+- name: Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix
+- name: SPO-Diffusion-Models/SPO-SDXL_4k-p_10ep
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://SPO-Diffusion-Models/SPO-SDXL_4k-p_10ep
+- name: openvla/openvla-7b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://openvla/openvla-7b
+- name: depth-anything/Depth-Anything-V2-Small
+  config_file:
+    backend: depth-estimation
+    parameters:
+      model: huggingface://depth-anything/Depth-Anything-V2-Small
+- name: jinaai/jina-reranker-v2-base-multilingual
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://jinaai/jina-reranker-v2-base-multilingual
+- name: prithivMLmods/Canopus-Realism-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Realism-LoRA
+- name: google/gemma-2-27b-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-27b-it
+- name: google/gemma-2-9b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-2-9b
+- name: tencent/MimicMotion
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://tencent/MimicMotion
+- name: elyza/Llama-3-ELYZA-JP-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://elyza/Llama-3-ELYZA-JP-8B
+- name: OpenGVLab/InternVL2-2B
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://OpenGVLab/InternVL2-2B
+- name: bartowski/gemma-2-27b-it-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/gemma-2-27b-it-GGUF
+- name: Mozilla/gemma-2-27b-it-llamafile
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Mozilla/gemma-2-27b-it-llamafile
+- name: prithivMLmods/Canopus-Liquid-Wallpaper-Art
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Liquid-Wallpaper-Art
+- name: fal/AuraFlow
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://fal/AuraFlow
+- name: ZhengPeng7/BiRefNet
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://ZhengPeng7/BiRefNet
+- name: prithivMLmods/Canopus-Pixar-Art
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Pixar-Art
+- name: TheDrummer/Big-Tiger-Gemma-27B-v1-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Big-Tiger-Gemma-27B-v1-GGUF
+- name: HuggingFaceTB/SmolLM-135M-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HuggingFaceTB/SmolLM-135M-Instruct
+- name: stabilityai/sv4d
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://stabilityai/sv4d
+- name: tkvier/Grimoire
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://tkvier/Grimoire
+- name: princeton-nlp/gemma-2-9b-it-SimPO
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://princeton-nlp/gemma-2-9b-it-SimPO
+- name: prithivMLmods/Pegasi-Minimalist-Image-Style
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Pegasi-Minimalist-Image-Style
+- name: hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4
+- name: shenzhi-wang/Llama3.1-8B-Chinese-Chat
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://shenzhi-wang/Llama3.1-8B-Chinese-Chat
+- name: prithivMLmods/Canopus-Clothing-Adp-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-Clothing-Adp-LoRA
+- name: cognitivecomputations/dolphin-2.9.4-llama3.1-8b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://cognitivecomputations/dolphin-2.9.4-llama3.1-8b
+- name: CiaraRowles/IP-Adapter-Instruct
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://CiaraRowles/IP-Adapter-Instruct
+- name: MaziyarPanahi/calme-2.4-rys-78b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://MaziyarPanahi/calme-2.4-rys-78b
+- name: parler-tts/parler-tts-large-v1
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://parler-tts/parler-tts-large-v1
+- name: enhanceaiteam/FLUX.1-Pro
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://enhanceaiteam/FLUX.1-Pro
+- name: NousResearch/Hermes-3-Llama-3.1-405B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://NousResearch/Hermes-3-Llama-3.1-405B
+- name: davisbro/half_illustration
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://davisbro/half_illustration
+- name: TheDrummer/Rocinante-12B-v1.1-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Rocinante-12B-v1.1-GGUF
+- name: meetkai/functionary-medium-v3.2
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://meetkai/functionary-medium-v3.2
+- name: nvidia/Mistral-NeMo-Minitron-8B-Base
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://nvidia/Mistral-NeMo-Minitron-8B-Base
+- name: MarinaraSpaghetti/NemoMix-Unleashed-12B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://MarinaraSpaghetti/NemoMix-Unleashed-12B
+- name: bartowski/NemoMix-Unleashed-12B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/NemoMix-Unleashed-12B-GGUF
+- name: TencentBAC/Conan-embedding-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TencentBAC/Conan-embedding-v1
+- name: ashen0209/Flux-Dev2Pro
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ashen0209/Flux-Dev2Pro
+- name: nbeerbower/Lyra-Gutenberg-mistral-nemo-12B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://nbeerbower/Lyra-Gutenberg-mistral-nemo-12B
+- name: robotics-diffusion-transformer/rdt-1b
+  config_file:
+    backend: robotics
+    parameters:
+      model: huggingface://robotics-diffusion-transformer/rdt-1b
+- name: lllyasviel/FLUX.1-dev-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://lllyasviel/FLUX.1-dev-gguf
+- name: RED-AIGC/TDD
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://RED-AIGC/TDD
+- name: prithivMLmods/Canopus-LoRA-Flux-FaceRealism
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Canopus-LoRA-Flux-FaceRealism
+- name: Shakker-Labs/FLUX.1-dev-LoRA-Vector-Journey
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-Vector-Journey
+- name: speakleash/Bielik-11B-v2.3-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://speakleash/Bielik-11B-v2.3-Instruct
+- name: alvarobartt/ghibli-characters-flux-lora
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://alvarobartt/ghibli-characters-flux-lora
+- name: premai-io/prem-1B-SQL
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://premai-io/prem-1B-SQL
+- name: lmms-lab/LLaVA-Video-72B-Qwen2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://lmms-lab/LLaVA-Video-72B-Qwen2
+- name: enhanceaiteam/Mystic
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://enhanceaiteam/Mystic
+- name: deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
+- name: mattshumer/Reflection-Llama-3.1-70B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mattshumer/Reflection-Llama-3.1-70B
+- name: google/gemma-7b-aps-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-7b-aps-it
+- name: facebook/layerskip-llama3-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/layerskip-llama3-8B
+- name: HF1BitLLM/Llama3-8B-1.58-100B-tokens
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://HF1BitLLM/Llama3-8B-1.58-100B-tokens
+- name: ifable/gemma-2-Ifable-9B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ifable/gemma-2-Ifable-9B
+- name: Shakker-Labs/FLUX.1-dev-LoRA-Children-Simple-Sketch
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Shakker-Labs/FLUX.1-dev-LoRA-Children-Simple-Sketch
+- name: Epiculous/Violet_Twilight-v0.2-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Epiculous/Violet_Twilight-v0.2-GGUF
+- name: inflatebot/MN-12B-Mag-Mell-R1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://inflatebot/MN-12B-Mag-Mell-R1
+- name: Qwen/Qwen2.5-Coder-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Coder-7B
+- name: Qwen/Qwen2.5-Math-72B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-Math-72B-Instruct
+- name: bartowski/Qwen2.5-72B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Qwen2.5-72B-Instruct-GGUF
+- name: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+- name: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8
+- name: Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4
+- name: Qwen/Qwen2.5-7B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen2.5-7B-Instruct-GGUF
+- name: bartowski/Mistral-Small-Instruct-2409-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Mistral-Small-Instruct-2409-GGUF
+- name: AIDC-AI/Ovis1.6-Gemma2-9B
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://AIDC-AI/Ovis1.6-Gemma2-9B
+- name: nerijs/flux_prettyshot_v1
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://nerijs/flux_prettyshot_v1
+- name: Prithvi-WxC/prithvi.wxc.2300m.v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Prithvi-WxC/prithvi.wxc.2300m.v1
+- name: meta-llama/Llama-Guard-3-1B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-Guard-3-1B
+- name: bartowski/Qwen2.5-14B_Uncensored_Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Qwen2.5-14B_Uncensored_Instruct-GGUF
+- name: jxm/cde-small-v1
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://jxm/cde-small-v1
+- name: glif/90s-anime-art
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://glif/90s-anime-art
+- name: allenai/MolmoE-1B-0924
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://allenai/MolmoE-1B-0924
+- name: allenai/Molmo-72B-0924
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://allenai/Molmo-72B-0924
+- name: BAAI/Emu3-Chat
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://BAAI/Emu3-Chat
+- name: UmeAiRT/FLUX.1-dev-LoRA-Modern_Pixel_art
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://UmeAiRT/FLUX.1-dev-LoRA-Modern_Pixel_art
+- name: alibaba-pai/CogVideoX-Fun-V1.1-5b-InP
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://alibaba-pai/CogVideoX-Fun-V1.1-5b-InP
+- name: rombodawg/Rombos-LLM-V2.5-Qwen-72b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://rombodawg/Rombos-LLM-V2.5-Qwen-72b
+- name: abacusai/Dracarys2-72B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://abacusai/Dracarys2-72B-Instruct
+- name: SG161222/Verus_Vision_1.0b
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://SG161222/Verus_Vision_1.0b
+- name: QuantFactory/Llama-3.2-Taiwan-Legal-3B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://QuantFactory/Llama-3.2-Taiwan-Legal-3B-Instruct-GGUF
+- name: Steelskull/MSM-MS-Cydrion-22B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Steelskull/MSM-MS-Cydrion-22B
+- name: TheDrummer/Tiger-Gemma-9B-v3-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Tiger-Gemma-9B-v3-GGUF
+- name: anthracite-org/magnum-v4-22b-gguf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://anthracite-org/magnum-v4-22b-gguf
+- name: ahmed-masry/ColFlor
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ahmed-masry/ColFlor
+- name: Zyphra/Zamba2-7B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Zyphra/Zamba2-7B-Instruct
+- name: DavidAU/L3-DARKEST-PLANET-16.5B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://DavidAU/L3-DARKEST-PLANET-16.5B-GGUF
+- name: arcee-ai/SuperNova-Medius-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://arcee-ai/SuperNova-Medius-GGUF
+- name: openreasoner/Math-psa
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://openreasoner/Math-psa
+- name: bartowski/Rombos-LLM-V2.6-Qwen-14b-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/Rombos-LLM-V2.6-Qwen-14b-GGUF
+- name: BELLE-2/Belle-whisper-large-v3-turbo-zh
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://BELLE-2/Belle-whisper-large-v3-turbo-zh
+- name: bartowski/NuExtract-v1.5-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bartowski/NuExtract-v1.5-GGUF
+- name: DISLab/SummLlama3.2-3B
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://DISLab/SummLlama3.2-3B
+- name: lmstudio-community/Llama-3.1-Nemotron-70B-Instruct-HF-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://lmstudio-community/Llama-3.1-Nemotron-70B-Instruct-HF-GGUF
+- name: parler-tts/parler-tts-mini-v1.1
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://parler-tts/parler-tts-mini-v1.1
+- name: AIDC-AI/Ovis1.6-Llama3.2-3B
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://AIDC-AI/Ovis1.6-Llama3.2-3B
+- name: rhymes-ai/Aria-sequential_mlp
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://rhymes-ai/Aria-sequential_mlp
+- name: mistralai/Pixtral-12B-Base-2409
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://mistralai/Pixtral-12B-Base-2409
+- name: RefalMachine/ruadapt_qwen2.5_3B_ext_u48_instruct_v4
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://RefalMachine/ruadapt_qwen2.5_3B_ext_u48_instruct_v4
+- name: U4R/StructTable-InternVL2-1B
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://U4R/StructTable-InternVL2-1B
+- name: Jmica/F5TTS
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Jmica/F5TTS
+- name: anthracite-org/magnum-v4-12b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://anthracite-org/magnum-v4-12b
+- name: comfyanonymous/flux_dev_scaled_fp8_test
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://comfyanonymous/flux_dev_scaled_fp8_test
+- name: turingevo/Qwen2-VL-2B-Instruct-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://turingevo/Qwen2-VL-2B-Instruct-gguf
+- name: mit-han-lab/vila-u-7b-256
+  config_file:
+    backend: any-to-any
+    parameters:
+      model: huggingface://mit-han-lab/vila-u-7b-256
+- name: heye0507/LucidFusion
+  config_file:
+    backend: image-to-3d
+    parameters:
+      model: huggingface://heye0507/LucidFusion
+- name: sam-paech/Darkest-muse-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://sam-paech/Darkest-muse-v1
+- name: SG161222/RealVis_Large_V1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://SG161222/RealVis_Large_V1.0
+- name: HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1
+- name: meta-llama/Llama-3.2-1B-Instruct-QLORA_INT4_EO8
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-3.2-1B-Instruct-QLORA_INT4_EO8
+- name: city96/flux.1-lite-8B-alpha-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://city96/flux.1-lite-8B-alpha-gguf
+- name: prithivMLmods/Castor-Gta6-Theme-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/Castor-Gta6-Theme-Flux-LoRA
+- name: Lewdiculous/Llama-3.1-8B-ArliAI-RPMax-v1.2-GGUF-IQ-ARM-Imatrix
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Lewdiculous/Llama-3.1-8B-ArliAI-RPMax-v1.2-GGUF-IQ-ARM-Imatrix
+- name: rhymes-ai/Aria-torchao-int8wo
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://rhymes-ai/Aria-torchao-int8wo
+- name: NAMAA-Space/GATE-Reranker-V1
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://NAMAA-Space/GATE-Reranker-V1
+- name: prithivMLmods/Llama-3.2-1B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://prithivMLmods/Llama-3.2-1B-GGUF
+- name: Ruicheng/moge-vitl
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Ruicheng/moge-vitl
+- name: mukaj/Llama-3.1-Hawkish-8B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mukaj/Llama-3.1-Hawkish-8B
+- name: NeelNanda/crosscoders-gpt2-small
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://NeelNanda/crosscoders-gpt2-small
+- name: AIDC-AI/Ovis1.6-Llama3.2-3B-GPTQ-Int4
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://AIDC-AI/Ovis1.6-Llama3.2-3B-GPTQ-Int4
+- name: calculater/copycat-noob
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://calculater/copycat-noob
+- name: zstanjj/HTML-Pruner-Llama-1B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://zstanjj/HTML-Pruner-Llama-1B
+- name: BSC-LT/salamandraTA-2B
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://BSC-LT/salamandraTA-2B
+- name: knifeayumu/Magnum-v4-Cydonia-v1.2-22B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://knifeayumu/Magnum-v4-Cydonia-v1.2-22B
+- name: fblgit/cybertron-v4-qw7B-MGS
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://fblgit/cybertron-v4-qw7B-MGS
+- name: Haiyang-W/TokenFormer-1-5B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Haiyang-W/TokenFormer-1-5B
+- name: nvidia/Cosmos-Tokenizer-DV8x16x16
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-DV8x16x16
+- name: city96/stable-diffusion-3.5-medium-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://city96/stable-diffusion-3.5-medium-gguf
+- name: Kijai/pyramid-flow-comfy
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Kijai/pyramid-flow-comfy
+- name: botaoye/NoPoSplat
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://botaoye/NoPoSplat
+- name: calcuis/sd3.5-medium-gguf
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://calcuis/sd3.5-medium-gguf
+- name: DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B
+- name: bunnycore/Qwen2.5-7B-Instruct-Fusion
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bunnycore/Qwen2.5-7B-Instruct-Fusion
+- name: SwayStar123/MicroDiT
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://SwayStar123/MicroDiT
+- name: fblgit/miniclaus-qw1.5B-UNAMGS
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://fblgit/miniclaus-qw1.5B-UNAMGS
+- name: DeepGlint-AI/MLCD-Embodied-7B
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://DeepGlint-AI/MLCD-Embodied-7B
+- name: MaziyarPanahi/SmolLM2-1.7B-Instruct-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://MaziyarPanahi/SmolLM2-1.7B-Instruct-GGUF
+- name: nvidia/Cosmos-Tokenizer-CV8x8x8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-CV8x8x8
+- name: SYH99999/MelBandRoformerSYHFT
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://SYH99999/MelBandRoformerSYHFT
+- name: Nohobby/MS-Schisandra-22B-v0.2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Nohobby/MS-Schisandra-22B-v0.2
+- name: Pretergeek/OpenChat-3.5-0106_32K-PoSE
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Pretergeek/OpenChat-3.5-0106_32K-PoSE
+- name: UsefulSensors/moonshine-base
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://UsefulSensors/moonshine-base
+- name: prithivMLmods/Qwen2.5-0.5B-200K-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://prithivMLmods/Qwen2.5-0.5B-200K-GGUF
+- name: Raelina/Raehoshi-illust-xl-2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Raelina/Raehoshi-illust-xl-2
+- name: nvidia/Cosmos-Tokenizer-CV4x8x8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-CV4x8x8
+- name: nvidia/Cosmos-Tokenizer-DI8x8
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://nvidia/Cosmos-Tokenizer-DI8x8
+- name: prithivMLmods/EBook-Creative-Cover-Flux-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prithivMLmods/EBook-Creative-Cover-Flux-LoRA
+- name: zongzhuofan/co-detr-vit-large-objects365
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://zongzhuofan/co-detr-vit-large-objects365
+- name: jae-xe/fae_dusk_flux_lora
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://jae-xe/fae_dusk_flux_lora
+- name: Gregniuki/F5-tts_English_German_Polish
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Gregniuki/F5-tts_English_German_Polish
+- name: QuantFactory/Llama3.1-DarkStorm-Aspire-8B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://QuantFactory/Llama3.1-DarkStorm-Aspire-8B-GGUF
+- name: QuantFactory/TIPO-200M-ft-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://QuantFactory/TIPO-200M-ft-GGUF
+- name: gokaygokay/Flux-2D-Game-Assets-LoRA
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://gokaygokay/Flux-2D-Game-Assets-LoRA
+- name: belisarius/FLUX.1-dev-Mann-E-gguf
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://belisarius/FLUX.1-dev-Mann-E-gguf
+- name: recoilme/recoilme-sdxl-v11
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://recoilme/recoilme-sdxl-v11
+- name: KKTT8823/momizi_Noob
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://KKTT8823/momizi_Noob
+- name: infly/OpenCoder-8B-Base
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://infly/OpenCoder-8B-Base
+- name: microsoft/LLM2CLIP-EVA02-B-16
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://microsoft/LLM2CLIP-EVA02-B-16
+- name: TheDrummer/Ministrations-8B-v1
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheDrummer/Ministrations-8B-v1
+- name: CultriX/flux-nsfw-highress
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://CultriX/flux-nsfw-highress
+- name: google-bert/bert-base-multilingual-uncased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://google-bert/bert-base-multilingual-uncased
+- name: almanach/camembert-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://almanach/camembert-base
+- name: openai-community/gpt2-large
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://openai-community/gpt2-large
+- name: openai-community/gpt2-xl
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://openai-community/gpt2-xl
+- name: FacebookAI/roberta-large
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://FacebookAI/roberta-large
+- name: google-t5/t5-small
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://google-t5/t5-small
+- name: AI-Growth-Lab/PatentSBERTa
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://AI-Growth-Lab/PatentSBERTa
+- name: AkshatSurolia/ICD-10-Code-Prediction
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://AkshatSurolia/ICD-10-Code-Prediction
+- name: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+  config_file:
+    backend: zero-shot-classification
+    parameters:
+      model: huggingface://MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+- name: Rajan/NepaliBERT
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://Rajan/NepaliBERT
+- name: amberoad/bert-multilingual-passage-reranking-msmarco
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://amberoad/bert-multilingual-passage-reranking-msmarco
+- name: arpanghoshal/EmoRoBERTa
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://arpanghoshal/EmoRoBERTa
+- name: csebuetnlp/mT5_multilingual_XLSum
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://csebuetnlp/mT5_multilingual_XLSum
+- name: dbmdz/bert-base-turkish-cased
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://dbmdz/bert-base-turkish-cased
+- name: dbmdz/bert-large-cased-finetuned-conll03-english
+  config_file:
+    backend: token-classification
+    parameters:
+      model: huggingface://dbmdz/bert-large-cased-finetuned-conll03-english
+- name: dccuchile/bert-base-spanish-wwm-cased
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://dccuchile/bert-base-spanish-wwm-cased
+- name: dslim/bert-base-NER
+  config_file:
+    backend: token-classification
+    parameters:
+      model: huggingface://dslim/bert-base-NER
+- name: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition
+  config_file:
+    backend: audio-classification
+    parameters:
+      model: huggingface://ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition
+- name: elgeish/wav2vec2-large-xlsr-53-arabic
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://elgeish/wav2vec2-large-xlsr-53-arabic
+- name: facebook/contriever
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://facebook/contriever
+- name: facebook/detr-resnet-101
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://facebook/detr-resnet-101
+- name: facebook/fastspeech2-en-ljspeech
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://facebook/fastspeech2-en-ljspeech
+- name: facebook/rag-sequence-nq
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://facebook/rag-sequence-nq
+- name: facebook/wav2vec2-large-960h-lv60-self
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://facebook/wav2vec2-large-960h-lv60-self
+- name: kaushalya/medclip
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://kaushalya/medclip
+- name: google/vit-base-patch16-224-in21k
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://google/vit-base-patch16-224-in21k
+- name: kykim/bert-kor-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://kykim/bert-kor-base
+- name: microsoft/codebert-base
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://microsoft/codebert-base
+- name: microsoft/layoutlm-base-uncased
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://microsoft/layoutlm-base-uncased
+- name: microsoft/trocr-large-printed
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://microsoft/trocr-large-printed
+- name: Intel/dpt-large
+  config_file:
+    backend: depth-estimation
+    parameters:
+      model: huggingface://Intel/dpt-large
+- name: nlptown/bert-base-multilingual-uncased-sentiment
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://nlptown/bert-base-multilingual-uncased-sentiment
+- name: ntu-spml/distilhubert
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://ntu-spml/distilhubert
+- name: papluca/xlm-roberta-base-language-detection
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://papluca/xlm-roberta-base-language-detection
+- name: pierreguillou/bert-base-cased-squad-v1.1-portuguese
+  config_file:
+    backend: question-answering
+    parameters:
+      model: huggingface://pierreguillou/bert-base-cased-squad-v1.1-portuguese
+- name: pyannote/segmentation
+  config_file:
+    backend: voice-activity-detection
+    parameters:
+      model: huggingface://pyannote/segmentation
+- name: ai-forever/ru-clip
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ai-forever/ru-clip
+- name: sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking
+- name: sentence-transformers/paraphrase-MiniLM-L6-v2
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://sentence-transformers/paraphrase-MiniLM-L6-v2
+- name: speechbrain/spkrec-ecapa-voxceleb
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://speechbrain/spkrec-ecapa-voxceleb
+- name: microsoft/resnet-18
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://microsoft/resnet-18
+- name: microsoft/layoutlmv3-base
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://microsoft/layoutlmv3-base
+- name: jy46604790/Fake-News-Bert-Detect
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://jy46604790/Fake-News-Bert-Detect
+- name: LiYuan/amazon-review-sentiment-analysis
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://LiYuan/amazon-review-sentiment-analysis
+- name: facebook/opt-1.3b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://facebook/opt-1.3b
+- name: facebook/nllb-200-distilled-600M
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://facebook/nllb-200-distilled-600M
+- name: naver-clova-ix/donut-base
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://naver-clova-ix/donut-base
+- name: microsoft/codereviewer
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://microsoft/codereviewer
+- name: rufimelo/Legal-BERTimbau-base
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://rufimelo/Legal-BERTimbau-base
+- name: skytnt/anime-seg
+  config_file:
+    backend: image-segmentation
+    parameters:
+      model: huggingface://skytnt/anime-seg
+- name: CompVis/stable-diffusion-safety-checker
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://CompVis/stable-diffusion-safety-checker
+- name: microsoft/xclip-base-patch32
+  config_file:
+    backend: video-classification
+    parameters:
+      model: huggingface://microsoft/xclip-base-patch32
+- name: KoboldAI/OPT-13B-Erebus
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://KoboldAI/OPT-13B-Erebus
+- name: lambdalabs/sd-image-variations-diffusers
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://lambdalabs/sd-image-variations-diffusers
+- name: openai/whisper-tiny
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://openai/whisper-tiny
+- name: umm-maybe/AI-image-detector
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://umm-maybe/AI-image-detector
+- name: google/flan-t5-xxl
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://google/flan-t5-xxl
+- name: nitrosocke/mo-di-diffusion
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://nitrosocke/mo-di-diffusion
+- name: alirezamsh/small100
+  config_file:
+    backend: translation
+    parameters:
+      model: huggingface://alirezamsh/small100
+- name: prompthero/openjourney
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://prompthero/openjourney
+- name: microsoft/biogpt
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/biogpt
+- name: QuanSun/EVA-CLIP
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://QuanSun/EVA-CLIP
+- name: WarriorMama777/OrangeMixs
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://WarriorMama777/OrangeMixs
+- name: microsoft/git-base
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://microsoft/git-base
+- name: stabilityai/stable-diffusion-2-1-base
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://stabilityai/stable-diffusion-2-1-base
+- name: Salesforce/blip-vqa-base
+  config_file:
+    backend: visual-question-answering
+    parameters:
+      model: huggingface://Salesforce/blip-vqa-base
+- name: hkunlp/instructor-large
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://hkunlp/instructor-large
+- name: dreamlike-art/dreamlike-anime-1.0
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://dreamlike-art/dreamlike-anime-1.0
+- name: bookbot/wav2vec2-ljspeech-gruut
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://bookbot/wav2vec2-ljspeech-gruut
+- name: Lykon/DreamShaper
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Lykon/DreamShaper
+- name: 2vXpSwA7/iroiro-lora
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://2vXpSwA7/iroiro-lora
+- name: Salesforce/blip2-flan-t5-xl
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://Salesforce/blip2-flan-t5-xl
+- name: webui/ControlNet-modules-safetensors
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://webui/ControlNet-modules-safetensors
+- name: lllyasviel/sd-controlnet-canny
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://lllyasviel/sd-controlnet-canny
+- name: lllyasviel/sd-controlnet-openpose
+  config_file:
+    backend: image-to-image
+    parameters:
+      model: huggingface://lllyasviel/sd-controlnet-openpose
+- name: Mitsua/mitsua-diffusion-one
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Mitsua/mitsua-diffusion-one
+- name: lllyasviel/Annotators
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/Annotators
+- name: stjiris/t5-portuguese-legal-summarization
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://stjiris/t5-portuguese-legal-summarization
+- name: ShilongLiu/GroundingDINO
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://ShilongLiu/GroundingDINO
+- name: facebook/sam-vit-huge
+  config_file:
+    backend: mask-generation
+    parameters:
+      model: huggingface://facebook/sam-vit-huge
+- name: comfyanonymous/ControlNet-v1-1_fp16_safetensors
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://comfyanonymous/ControlNet-v1-1_fp16_safetensors
+- name: FacehugmanIII/4x_foolhardy_Remacri
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://FacehugmanIII/4x_foolhardy_Remacri
+- name: wok000/vcclient000
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://wok000/vcclient000
+- name: replit/replit-code-v1-3b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://replit/replit-code-v1-3b
+- name: ai-forever/ruGPT-3.5-13B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ai-forever/ruGPT-3.5-13B
+- name: cognitivecomputations/WizardLM-7B-Uncensored
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://cognitivecomputations/WizardLM-7B-Uncensored
+- name: mosaicml/mpt-7b-storywriter
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://mosaicml/mpt-7b-storywriter
+- name: TheBloke/WizardLM-7B-uncensored-GPTQ
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TheBloke/WizardLM-7B-uncensored-GPTQ
+- name: grammarly/coedit-large
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://grammarly/coedit-large
+- name: GitMylo/bark-voice-cloning
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://GitMylo/bark-voice-cloning
+- name: intfloat/multilingual-e5-base
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://intfloat/multilingual-e5-base
+- name: descript/descript-audio-codec
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://descript/descript-audio-codec
+- name: facebook/mms-1b-all
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://facebook/mms-1b-all
+- name: moka-ai/m3e-base
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://moka-ai/m3e-base
+- name: facebook/musicgen-small
+  config_file:
+    backend: text-to-audio
+    parameters:
+      model: huggingface://facebook/musicgen-small
+- name: heack/HeackMT5-ZhCleanText1ML
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://heack/HeackMT5-ZhCleanText1ML
+- name: LordDavis778/BlueArchivevoicemodels
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://LordDavis778/BlueArchivevoicemodels
+- name: colbert-ir/colbertv2.0
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://colbert-ir/colbertv2.0
+- name: Veucci/lyric-to-genre
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://Veucci/lyric-to-genre
+- name: zh-plus/faster-whisper-large-v2-japanese-5k-steps
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://zh-plus/faster-whisper-large-v2-japanese-5k-steps
+- name: openai/shap-e
+  config_file:
+    backend: text-to-3d
+    parameters:
+      model: huggingface://openai/shap-e
+- name: meta-llama/Llama-2-13b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/Llama-2-13b
+- name: JujoHotaru/lora
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://JujoHotaru/lora
+- name: madebyollin/sdxl-vae-fp16-fix
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://madebyollin/sdxl-vae-fp16-fix
+- name: Kernel/sd-nsfw
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Kernel/sd-nsfw
+- name: facebook/dinov2-base
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://facebook/dinov2-base
+- name: TheBloke/Llama-2-7B-Chat-GPTQ
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TheBloke/Llama-2-7B-Chat-GPTQ
+- name: NousResearch/Llama-2-7b-chat-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://NousResearch/Llama-2-7b-chat-hf
+- name: thenlper/gte-base
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://thenlper/gte-base
+- name: lmsys/vicuna-7b-v1.5
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://lmsys/vicuna-7b-v1.5
+- name: SG161222/Realistic_Vision_V5.1_noVAE
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://SG161222/Realistic_Vision_V5.1_noVAE
+- name: BAAI/bge-large-en
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://BAAI/bge-large-en
+- name: BlinkDL/temp-latest-training-models
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://BlinkDL/temp-latest-training-models
+- name: dima806/music_genres_classification
+  config_file:
+    backend: audio-classification
+    parameters:
+      model: huggingface://dima806/music_genres_classification
+- name: LMFResearchSociety/SDXLLoRAArchive
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://LMFResearchSociety/SDXLLoRAArchive
+- name: goofyai/Leonardo_Ai_Style_Illustration
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://goofyai/Leonardo_Ai_Style_Illustration
+- name: Qwen/Qwen-VL-Chat
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Qwen/Qwen-VL-Chat
+- name: Lykon/dreamshaper-8
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Lykon/dreamshaper-8
+- name: manshoety/AD_Stabilized_Motion
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://manshoety/AD_Stabilized_Motion
+- name: PvDeep/Add-Detail-XL
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://PvDeep/Add-Detail-XL
+- name: foduucom/web-form-ui-field-detection
+  config_file:
+    backend: object-detection
+    parameters:
+      model: huggingface://foduucom/web-form-ui-field-detection
+- name: bardsai/finance-sentiment-es-base
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://bardsai/finance-sentiment-es-base
+- name: lllyasviel/fooocus_inpaint
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://lllyasviel/fooocus_inpaint
+- name: pyannote/segmentation-3.0
+  config_file:
+    backend: voice-activity-detection
+    parameters:
+      model: huggingface://pyannote/segmentation-3.0
+- name: pyannote/speaker-diarization-3.0
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://pyannote/speaker-diarization-3.0
+- name: IDEA-Research/grounding-dino-base
+  config_file:
+    backend: zero-shot-object-detection
+    parameters:
+      model: huggingface://IDEA-Research/grounding-dino-base
+- name: ostris/ikea-instructions-lora-sdxl
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://ostris/ikea-instructions-lora-sdxl
+- name: thesephist/contra-bottleneck-t5-xl-wikipedia
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://thesephist/contra-bottleneck-t5-xl-wikipedia
+- name: hotshotco/SDXL-512
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://hotshotco/SDXL-512
+- name: IAHispano/Applio
+  config_file:
+    backend: audio-to-audio
+    parameters:
+      model: huggingface://IAHispano/Applio
+- name: artificialguybr/ColoringBookRedmond-V2
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://artificialguybr/ColoringBookRedmond-V2
+- name: google/owlv2-base-patch16-ensemble
+  config_file:
+    backend: zero-shot-object-detection
+    parameters:
+      model: huggingface://google/owlv2-base-patch16-ensemble
+- name: WolfAether21/NSFW-STABLE-DIFFUSION-LORA
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://WolfAether21/NSFW-STABLE-DIFFUSION-LORA
+- name: segmind/SSD-1B
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://segmind/SSD-1B
+- name: TheBloke/CausalLM-14B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TheBloke/CausalLM-14B-GGUF
+- name: vectara/hallucination_evaluation_model
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://vectara/hallucination_evaluation_model
+- name: Keiser41/Example_Based_Manga_Colorization
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Keiser41/Example_Based_Manga_Colorization
+- name: BoRnNo0b/files-mirror
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://BoRnNo0b/files-mirror
+- name: maritaca-ai/sabia-7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://maritaca-ai/sabia-7b
+- name: pyannote/wespeaker-voxceleb-resnet34-LM
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://pyannote/wespeaker-voxceleb-resnet34-LM
+- name: GOAT-AI/GOAT-70B-Storytelling
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://GOAT-AI/GOAT-70B-Storytelling
+- name: reglab-rrc/mistral-rrc
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://reglab-rrc/mistral-rrc
+- name: facebook/seamless-streaming
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://facebook/seamless-streaming
+- name: bigcode/starcoder2-3b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://bigcode/starcoder2-3b
+- name: audo/seamless-m4t-v2-large
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://audo/seamless-m4t-v2-large
+- name: Nexusflow/NexusRaven-V2-13B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Nexusflow/NexusRaven-V2-13B
+- name: microsoft/phi-2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://microsoft/phi-2
+- name: cognitivecomputations/dolphin-2.5-mixtral-8x7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://cognitivecomputations/dolphin-2.5-mixtral-8x7b
+- name: TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ
+- name: facebook/w2v-bert-2.0
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://facebook/w2v-bert-2.0
+- name: fancyfeast/joytag
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://fancyfeast/joytag
+- name: cognitivecomputations/dolphin-2.6-mixtral-8x7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://cognitivecomputations/dolphin-2.6-mixtral-8x7b
+- name: MaralGPT/Maral-7B-alpha-1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://MaralGPT/Maral-7B-alpha-1
+- name: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- name: myshell-ai/OpenVoice
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://myshell-ai/OpenVoice
+- name: AdamCodd/vit-base-nsfw-detector
+  config_file:
+    backend: image-classification
+    parameters:
+      model: huggingface://AdamCodd/vit-base-nsfw-detector
+- name: NousResearch/Genstruct-7B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://NousResearch/Genstruct-7B
+- name: TencentARC/LLaMA-Pro-8B-Instruct
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TencentARC/LLaMA-Pro-8B-Instruct
+- name: jinaai/jina-embeddings-v2-base-zh
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://jinaai/jina-embeddings-v2-base-zh
+- name: yihongLiu/furina
+  config_file:
+    backend: fill-mask
+    parameters:
+      model: huggingface://yihongLiu/furina
+- name: TencentARC/PhotoMaker
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://TencentARC/PhotoMaker
+- name: brittlewis12/Kunoichi-DPO-v2-7B-GGUF
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://brittlewis12/Kunoichi-DPO-v2-7B-GGUF
+- name: numz/wav2lip_studio
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://numz/wav2lip_studio
+- name: InstantX/InstantID
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://InstantX/InstantID
+- name: ZySec-AI/SecurityLLM
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://ZySec-AI/SecurityLLM
+- name: liuhaotian/llava-v1.6-34b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://liuhaotian/llava-v1.6-34b
+- name: liuhaotian/llava-v1.6-mistral-7b
+  config_file:
+    backend: image-text-to-text
+    parameters:
+      model: huggingface://liuhaotian/llava-v1.6-mistral-7b
+- name: TheBloke/CapybaraHermes-2.5-Mistral-7B-GGUF
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TheBloke/CapybaraHermes-2.5-Mistral-7B-GGUF
+- name: defog/sqlcoder-7b-2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://defog/sqlcoder-7b-2
+- name: vdo/stable-video-diffusion-img2vid-xt-1-1
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://vdo/stable-video-diffusion-img2vid-xt-1-1
+- name: Sao10K/Fimbulvetr-11B-v2
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Sao10K/Fimbulvetr-11B-v2
+- name: ashawkey/LGM
+  config_file:
+    backend: text-to-3d
+    parameters:
+      model: huggingface://ashawkey/LGM
+- name: nvidia/canary-1b
+  config_file:
+    backend: automatic-speech-recognition
+    parameters:
+      model: huggingface://nvidia/canary-1b
+- name: intfloat/multilingual-e5-large-instruct
+  config_file:
+    backend: feature-extraction
+    parameters:
+      model: huggingface://intfloat/multilingual-e5-large-instruct
+- name: breezedeus/pix2text-mfr
+  config_file:
+    backend: image-to-text
+    parameters:
+      model: huggingface://breezedeus/pix2text-mfr
+- name: Himitsui/Kaiju-11B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://Himitsui/Kaiju-11B
+- name: prometheus-eval/prometheus-7b-v2.0
+  config_file:
+    backend: text2text-generation
+    parameters:
+      model: huggingface://prometheus-eval/prometheus-7b-v2.0
+- name: playgroundai/playground-v2.5-1024px-aesthetic
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://playgroundai/playground-v2.5-1024px-aesthetic
+- name: wangfuyun/AnimateLCM-I2V
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://wangfuyun/AnimateLCM-I2V
+- name: amazon/chronos-t5-large
+  config_file:
+    backend: time-series-forecasting
+    parameters:
+      model: huggingface://amazon/chronos-t5-large
+- name: Sao10K/Ramble
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Sao10K/Ramble
+- name: qualcomm/MediaPipe-Pose-Estimation
+  config_file:
+    backend: keypoint-detection
+    parameters:
+      model: huggingface://qualcomm/MediaPipe-Pose-Estimation
+- name: myshell-ai/MeloTTS-Chinese
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://myshell-ai/MeloTTS-Chinese
+- name: Kvikontent/midjourney-v6
+  config_file:
+    backend: text-to-image
+    parameters:
+      model: huggingface://Kvikontent/midjourney-v6
+- name: TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic
+  config_file:
+    backend: image-feature-extraction
+    parameters:
+      model: huggingface://TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic
+- name: TinyLlama/TinyLlama_v1.1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://TinyLlama/TinyLlama_v1.1
+- name: aspire/acge_text_embedding
+  config_file:
+    backend: sentence-similarity
+    parameters:
+      model: huggingface://aspire/acge_text_embedding
+- name: keijiro-tk/coreml-sd-turbo-640x384
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://keijiro-tk/coreml-sd-turbo-640x384
+- name: stanford-crfm/music-large-800k
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://stanford-crfm/music-large-800k
+- name: meta-llama/CodeLlama-34b-Instruct-hf
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://meta-llama/CodeLlama-34b-Instruct-hf
+- name: BAAI/bge-reranker-v2-gemma
+  config_file:
+    backend: text-classification
+    parameters:
+      model: huggingface://BAAI/bge-reranker-v2-gemma
+- name: xai-org/grok-1
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://xai-org/grok-1
+- name: stabilityai/sv3d
+  config_file:
+    backend: image-to-video
+    parameters:
+      model: huggingface://stabilityai/sv3d
+- name: ByteDance/AnimateDiff-Lightning
+  config_file:
+    backend: text-to-video
+    parameters:
+      model: huggingface://ByteDance/AnimateDiff-Lightning
+- name: google/codegemma-7b
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/codegemma-7b
+- name: google/gemma-1.1-2b-it
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://google/gemma-1.1-2b-it
+- name: 1bitLLM/bitnet_b1_58-3B
+  config_file:
+    backend: text-generation
+    parameters:
+      model: huggingface://1bitLLM/bitnet_b1_58-3B
+- name: madbuda/triton-windows-builds
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://madbuda/triton-windows-builds
+- name: TMElyralab/MuseTalk
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://TMElyralab/MuseTalk
+- name: RussianNLP/FRED-T5-Summarizer
+  config_file:
+    backend: summarization
+    parameters:
+      model: huggingface://RussianNLP/FRED-T5-Summarizer
+- name: capleaf/viXTTS
+  config_file:
+    backend: text-to-speech
+    parameters:
+      model: huggingface://capleaf/viXTTS
+- name: Kijai/SUPIR_pruned
+  config_file:
+    backend: unknown
+    parameters:
+      model: huggingface://Kijai/SUPIR_pruned
